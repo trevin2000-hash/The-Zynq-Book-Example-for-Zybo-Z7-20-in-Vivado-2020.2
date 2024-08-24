@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Aug 22 22:51:21 2024
+# Process ID: 176812
+# Current directory: /home/trevin/Documents/Soc_Projects/zybo_excrises/zybo_1B/zybo_1B.runs/zybo_1B_rst_ps7_0_50M_2_synth_1
+# Command line: vivado -log zybo_1B_rst_ps7_0_50M_2.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source zybo_1B_rst_ps7_0_50M_2.tcl
+# Log file: /home/trevin/Documents/Soc_Projects/zybo_excrises/zybo_1B/zybo_1B.runs/zybo_1B_rst_ps7_0_50M_2_synth_1/zybo_1B_rst_ps7_0_50M_2.vds
+# Journal file: /home/trevin/Documents/Soc_Projects/zybo_excrises/zybo_1B/zybo_1B.runs/zybo_1B_rst_ps7_0_50M_2_synth_1/vivado.jou
+#-----------------------------------------------------------
+source zybo_1B_rst_ps7_0_50M_2.tcl -notrace

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7z020clg400-1" LaunchTime="1724382915">
+  <File Type="VDS-TIMING-PB" Name="zybo_1B_wrapper_timing_summary_synth.pb"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="zybo_1B_wrapper_timing_summary_synth.rpt"/>
+  <File Type="RDS-DCP" Name="zybo_1B_wrapper.dcp"/>
+  <File Type="RDS-UTIL-PB" Name="zybo_1B_wrapper_utilization_synth.pb"/>
+  <File Type="RDS-UTIL" Name="zybo_1B_wrapper_utilization_synth.rpt"/>
+  <File Type="RDS-PROPCONSTRS" Name="zybo_1B_wrapper_drc_synth.rpt"/>
+  <File Type="RDS-RDS" Name="zybo_1B_wrapper.vds"/>
+  <File Type="REPORTS-TCL" Name="zybo_1B_wrapper_reports.tcl"/>
+  <File Type="PA-TCL" Name="zybo_1B_wrapper.tcl"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/bd/zybo_1B/zybo_1B.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PGENDIR/sources_1/bd/zybo_1B/hdl/zybo_1B_wrapper.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PGENDIR/sources_1/bd/zybo_1B/hdl/zybo_1B_wrapper.v">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="zybo_1B_wrapper"/>
+      <Option Name="TopLib" Val="xil_defaultlib"/>
+      <Option Name="TopArchitecture" Val="STRUCTURE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/digilent-xdc-master/Zybo-Z7-Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../Downloads/digilent-xdc-master/Zybo-Z7-Master.xdc"/>
+        <Attr Name="ImportTime" Val="1713195646"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020">
+      <Desc>Vivado Synthesis Defaults</Desc>
+    </StratHandle>
+    <Step Id="synth_design"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="zybo_1B_axi_gpio_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="zybo_1B_processing_system7_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="zybo_1B_auto_pc_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="zybo_1B_rst_ps7_0_50M_2"/>
+</GenRun>
