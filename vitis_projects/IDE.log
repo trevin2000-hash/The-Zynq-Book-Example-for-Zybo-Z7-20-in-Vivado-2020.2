@@ -1,0 +1,1904 @@
+21:36:22 INFO  : Launching XSCT server: xsct -n  -interactive /home/trevin/workspace/temp_xsdb_launch_script.tcl
+21:36:23 INFO  : Registering command handlers for Vitis TCF services
+21:36:25 INFO  : Platform repository initialization has completed.
+21:36:25 INFO  : XSCT server has started successfully.
+21:36:25 INFO  : plnx-install-location is set to ''
+21:36:25 INFO  : Successfully done setting XSCT server connection channel  
+21:36:25 INFO  : Successfully done query RDI_DATADIR 
+21:36:25 INFO  : Successfully done setting workspace for the tool. 
+22:04:55 INFO  : Launching XSCT server: xsct -n  -interactive /home/trevin/workspace/temp_xsdb_launch_script.tcl
+22:04:55 INFO  : Registering command handlers for Vitis TCF services
+22:04:57 INFO  : Platform repository initialization has completed.
+22:04:58 INFO  : XSCT server has started successfully.
+22:04:58 INFO  : Successfully done setting XSCT server connection channel  
+22:04:58 INFO  : plnx-install-location is set to ''
+22:04:58 INFO  : Successfully done setting workspace for the tool. 
+22:04:58 INFO  : Successfully done query RDI_DATADIR 
+22:10:44 INFO  : Result from executing command 'getProjects': zybo_1B_wrapper
+22:10:44 INFO  : Result from executing command 'getPlatforms': 
+22:10:44 WARN  : An unexpected exception occurred in the module 'platform project logging'
+22:10:44 INFO  : Platform 'zybo_1B_wrapper' is added to custom repositories.
+22:10:47 INFO  : Platform 'zybo_1B_wrapper' is added to custom repositories.
+22:17:54 INFO  : Result from executing command 'getProjects': zybo_1B_wrapper
+22:17:54 INFO  : Result from executing command 'getPlatforms': zybo_1B_wrapper|/home/trevin/workspace/zybo_1B_wrapper/export/zybo_1B_wrapper/zybo_1B_wrapper.xpfm
+22:17:57 INFO  : Checking for BSP changes to sync application flags for project 'LED_test'...
+22:18:50 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:18:50 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7BA00A' is selected.
+22:18:50 INFO  : 'jtag frequency' command is executed.
+22:18:50 INFO  : Context for 'APU' is selected.
+22:18:50 INFO  : System reset is completed.
+22:18:53 INFO  : 'after 3000' command is executed.
+22:18:53 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BA00A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BA00A-23727093-0"}' command is executed.
+22:18:56 INFO  : Device configured successfully with "/home/trevin/workspace/LED_test/_ide/bitstream/zybo_1B_wrapper.bit"
+22:18:56 INFO  : Context for 'APU' is selected.
+22:18:56 INFO  : Hardware design and registers information is loaded from '/home/trevin/workspace/zybo_1B_wrapper/export/zybo_1B_wrapper/hw/zybo_1B_wrapper.xsa'.
+22:18:56 INFO  : 'configparams force-mem-access 1' command is executed.
+22:18:56 INFO  : Context for 'APU' is selected.
+22:18:56 INFO  : Sourcing of '/home/trevin/workspace/LED_test/_ide/psinit/ps7_init.tcl' is done.
+22:18:56 INFO  : 'ps7_init' command is executed.
+22:18:56 INFO  : 'ps7_post_config' command is executed.
+22:18:56 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:18:56 INFO  : The application '/home/trevin/workspace/LED_test/Debug/LED_test.elf' is downloaded to processor 'ps7_cortexa9_0'.
+22:18:56 INFO  : 'configparams force-mem-access 0' command is executed.
+22:18:56 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BA00A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BA00A-23727093-0"}
+fpga -file /home/trevin/workspace/LED_test/_ide/bitstream/zybo_1B_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/trevin/workspace/zybo_1B_wrapper/export/zybo_1B_wrapper/hw/zybo_1B_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/trevin/workspace/LED_test/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/trevin/workspace/LED_test/Debug/LED_test.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+22:18:56 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:18:56 INFO  : 'con' command is executed.
+22:18:56 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+22:18:56 INFO  : Launch script is exported to file '/home/trevin/workspace/LED_test_system/_ide/scripts/debugger_led_test-default.tcl'
+22:20:31 INFO  : Checking for BSP changes to sync application flags for project 'LED_test'...
+22:21:29 INFO  : Result from executing command 'getProjects': zybo_1B_wrapper
+22:21:29 INFO  : Result from executing command 'getPlatforms': zybo_1B_wrapper|/home/trevin/workspace/zybo_1B_wrapper/export/zybo_1B_wrapper/zybo_1B_wrapper.xpfm
+22:21:33 INFO  : Checking for BSP changes to sync application flags for project 'LED_test'...
+22:22:10 INFO  : Build configuration of 'LED_test_system' is updated to 'Hardware'
+22:22:21 INFO  : Disconnected from the channel tcfchan#2.
+22:22:22 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:22:22 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7BA00A' is selected.
+22:22:22 INFO  : 'jtag frequency' command is executed.
+22:22:22 INFO  : Context for 'APU' is selected.
+22:22:22 INFO  : System reset is completed.
+22:22:25 INFO  : 'after 3000' command is executed.
+22:22:25 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BA00A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BA00A-23727093-0"}' command is executed.
+22:22:27 INFO  : Device configured successfully with "/home/trevin/workspace/LED_test/_ide/bitstream/zybo_1B_wrapper.bit"
+22:22:27 INFO  : Context for 'APU' is selected.
+22:22:27 INFO  : Hardware design and registers information is loaded from '/home/trevin/workspace/zybo_1B_wrapper/export/zybo_1B_wrapper/hw/zybo_1B_wrapper.xsa'.
+22:22:27 INFO  : 'configparams force-mem-access 1' command is executed.
+22:22:27 INFO  : Context for 'APU' is selected.
+22:22:27 INFO  : Sourcing of '/home/trevin/workspace/LED_test/_ide/psinit/ps7_init.tcl' is done.
+22:22:27 INFO  : 'ps7_init' command is executed.
+22:22:27 INFO  : 'ps7_post_config' command is executed.
+22:22:27 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:22:28 INFO  : The application '/home/trevin/workspace/LED_test/Debug/LED_test.elf' is downloaded to processor 'ps7_cortexa9_0'.
+22:22:28 INFO  : 'configparams force-mem-access 0' command is executed.
+22:22:28 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BA00A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BA00A-23727093-0"}
+fpga -file /home/trevin/workspace/LED_test/_ide/bitstream/zybo_1B_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/trevin/workspace/zybo_1B_wrapper/export/zybo_1B_wrapper/hw/zybo_1B_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/trevin/workspace/LED_test/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/trevin/workspace/LED_test/Debug/LED_test.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+22:22:28 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:22:28 INFO  : 'con' command is executed.
+22:22:28 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+22:22:28 INFO  : Launch script is exported to file '/home/trevin/workspace/LED_test_system/_ide/scripts/systemdebugger_led_test_system_standalone.tcl'
+22:27:33 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:27:33 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7BA00A' is selected.
+22:27:33 INFO  : 'jtag frequency' command is executed.
+22:27:33 INFO  : Context for 'APU' is selected.
+22:27:33 INFO  : System reset is completed.
+22:27:36 INFO  : 'after 3000' command is executed.
+22:27:36 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BA00A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BA00A-23727093-0"}' command is executed.
+22:27:38 INFO  : Device configured successfully with "/home/trevin/workspace/LED_test/_ide/bitstream/zybo_1B_wrapper.bit"
+22:27:38 INFO  : Context for 'APU' is selected.
+22:27:38 INFO  : Hardware design and registers information is loaded from '/home/trevin/workspace/zybo_1B_wrapper/export/zybo_1B_wrapper/hw/zybo_1B_wrapper.xsa'.
+22:27:38 INFO  : 'configparams force-mem-access 1' command is executed.
+22:27:38 INFO  : Context for 'APU' is selected.
+22:27:38 INFO  : Sourcing of '/home/trevin/workspace/LED_test/_ide/psinit/ps7_init.tcl' is done.
+22:27:38 INFO  : 'ps7_init' command is executed.
+22:27:38 INFO  : 'ps7_post_config' command is executed.
+22:27:38 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:27:39 INFO  : The application '/home/trevin/workspace/LED_test/Debug/LED_test.elf' is downloaded to processor 'ps7_cortexa9_0'.
+22:27:39 INFO  : 'configparams force-mem-access 0' command is executed.
+22:27:39 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BA00A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BA00A-23727093-0"}
+fpga -file /home/trevin/workspace/LED_test/_ide/bitstream/zybo_1B_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/trevin/workspace/zybo_1B_wrapper/export/zybo_1B_wrapper/hw/zybo_1B_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/trevin/workspace/LED_test/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/trevin/workspace/LED_test/Debug/LED_test.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+22:27:39 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:27:39 INFO  : 'con' command is executed.
+22:27:39 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+22:27:39 INFO  : Launch script is exported to file '/home/trevin/workspace/LED_test_system/_ide/scripts/debugger_led_test-default.tcl'
+22:29:24 INFO  : Checking for BSP changes to sync application flags for project 'LED_test'...
+22:30:51 ERROR : Invalid hardware specification '${sdxTcfLaunchFile:project=LED_test;fileType=hw;}' in launch configuration 'Debugger_LED_test-GDB'.
+22:33:08 INFO  : Result from executing command 'getProjects': zybo_1B_wrapper
+22:33:08 INFO  : Result from executing command 'getPlatforms': zybo_1B_wrapper|/home/trevin/workspace/zybo_1B_wrapper/export/zybo_1B_wrapper/zybo_1B_wrapper.xpfm
+22:33:11 INFO  : Checking for BSP changes to sync application flags for project 'LED_test'...
+22:33:45 INFO  : Disconnected from the channel tcfchan#4.
+22:33:46 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:33:46 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7BA00A' is selected.
+22:33:46 INFO  : 'jtag frequency' command is executed.
+22:33:46 INFO  : Context for 'APU' is selected.
+22:33:46 INFO  : System reset is completed.
+22:33:49 INFO  : 'after 3000' command is executed.
+22:33:50 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BA00A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BA00A-23727093-0"}' command is executed.
+22:33:52 INFO  : Device configured successfully with "/home/trevin/workspace/LED_test/_ide/bitstream/zybo_1B_wrapper.bit"
+22:33:52 INFO  : Context for 'APU' is selected.
+22:33:52 INFO  : Hardware design and registers information is loaded from '/home/trevin/workspace/zybo_1B_wrapper/export/zybo_1B_wrapper/hw/zybo_1B_wrapper.xsa'.
+22:33:52 INFO  : 'configparams force-mem-access 1' command is executed.
+22:33:52 INFO  : Context for 'APU' is selected.
+22:33:52 INFO  : Sourcing of '/home/trevin/workspace/LED_test/_ide/psinit/ps7_init.tcl' is done.
+22:33:52 INFO  : 'ps7_init' command is executed.
+22:33:52 INFO  : 'ps7_post_config' command is executed.
+22:33:52 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:33:52 INFO  : The application '/home/trevin/workspace/LED_test/Debug/LED_test.elf' is downloaded to processor 'ps7_cortexa9_0'.
+22:33:52 INFO  : 'configparams force-mem-access 0' command is executed.
+22:33:52 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BA00A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BA00A-23727093-0"}
+fpga -file /home/trevin/workspace/LED_test/_ide/bitstream/zybo_1B_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/trevin/workspace/zybo_1B_wrapper/export/zybo_1B_wrapper/hw/zybo_1B_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/trevin/workspace/LED_test/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/trevin/workspace/LED_test/Debug/LED_test.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+22:33:52 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:33:52 INFO  : 'con' command is executed.
+22:33:52 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+22:33:52 INFO  : Launch script is exported to file '/home/trevin/workspace/LED_test_system/_ide/scripts/debugger_led_test-default_1.tcl'
+22:44:54 WARN  : channel "tcfchan#4" closed
+22:44:54 INFO  : Disconnected from the channel tcfchan#7.
+22:56:09 INFO  : Launching XSCT server: xsct -n  -interactive /home/trevin/workspace/temp_xsdb_launch_script.tcl
+22:56:11 INFO  : XSCT server has started successfully.
+22:56:11 INFO  : Successfully done setting XSCT server connection channel  
+22:56:11 INFO  : plnx-install-location is set to ''
+22:56:11 INFO  : Successfully done setting workspace for the tool. 
+22:56:12 INFO  : Platform repository initialization has completed.
+22:56:12 INFO  : Registering command handlers for Vitis TCF services
+22:56:13 INFO  : Successfully done query RDI_DATADIR 
+22:57:45 INFO  : Launching XSCT server: xsct -n  -interactive /home/trevin/workspace/temp_xsdb_launch_script.tcl
+22:57:47 INFO  : XSCT server has started successfully.
+22:57:47 INFO  : plnx-install-location is set to ''
+22:57:47 INFO  : Successfully done setting XSCT server connection channel  
+22:57:47 INFO  : Successfully done setting workspace for the tool. 
+22:57:48 INFO  : Platform repository initialization has completed.
+22:57:48 INFO  : Successfully done query RDI_DATADIR 
+22:57:48 INFO  : Registering command handlers for Vitis TCF services
+22:58:29 INFO  : Result from executing command 'getProjects': zybo_1B_wrapper
+22:58:29 INFO  : Result from executing command 'getPlatforms': zybo_1B_wrapper|/home/trevin/workspace/zybo_1B_wrapper/export/zybo_1B_wrapper/zybo_1B_wrapper.xpfm
+22:59:31 INFO  : Checking for BSP changes to sync application flags for project 'LED_test'...
+23:00:07 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:00:07 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7BA00A' is selected.
+23:00:07 INFO  : 'jtag frequency' command is executed.
+23:00:07 INFO  : Context for 'APU' is selected.
+23:00:07 INFO  : System reset is completed.
+23:00:10 INFO  : 'after 3000' command is executed.
+23:00:10 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BA00A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BA00A-23727093-0"}' command is executed.
+23:00:12 INFO  : Device configured successfully with "/home/trevin/workspace/LED_test/_ide/bitstream/zybo_1B_wrapper.bit"
+23:00:12 INFO  : Context for 'APU' is selected.
+23:00:12 INFO  : Hardware design and registers information is loaded from '/home/trevin/workspace/zybo_1B_wrapper/export/zybo_1B_wrapper/hw/zybo_1B_wrapper.xsa'.
+23:00:12 INFO  : 'configparams force-mem-access 1' command is executed.
+23:00:12 INFO  : Context for 'APU' is selected.
+23:00:12 INFO  : Sourcing of '/home/trevin/workspace/LED_test/_ide/psinit/ps7_init.tcl' is done.
+23:00:12 INFO  : 'ps7_init' command is executed.
+23:00:12 INFO  : 'ps7_post_config' command is executed.
+23:00:12 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:00:13 INFO  : The application '/home/trevin/workspace/LED_test/Debug/LED_test.elf' is downloaded to processor 'ps7_cortexa9_0'.
+23:00:13 INFO  : 'configparams force-mem-access 0' command is executed.
+23:00:13 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BA00A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BA00A-23727093-0"}
+fpga -file /home/trevin/workspace/LED_test/_ide/bitstream/zybo_1B_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/trevin/workspace/zybo_1B_wrapper/export/zybo_1B_wrapper/hw/zybo_1B_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/trevin/workspace/LED_test/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/trevin/workspace/LED_test/Debug/LED_test.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+23:00:13 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:00:13 INFO  : 'con' command is executed.
+23:00:13 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+23:00:13 INFO  : Launch script is exported to file '/home/trevin/workspace/LED_test_system/_ide/scripts/debugger_led_test-default_1.tcl'
+23:00:36 INFO  : Disconnected from the channel tcfchan#3.
+23:00:37 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:00:37 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7BA00A' is selected.
+23:00:37 INFO  : 'jtag frequency' command is executed.
+23:00:37 INFO  : Context for 'APU' is selected.
+23:00:37 INFO  : System reset is completed.
+23:00:40 INFO  : 'after 3000' command is executed.
+23:00:40 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BA00A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BA00A-23727093-0"}' command is executed.
+23:00:43 INFO  : Device configured successfully with "/home/trevin/workspace/LED_test/_ide/bitstream/zybo_1B_wrapper.bit"
+23:00:43 INFO  : Context for 'APU' is selected.
+23:00:43 INFO  : Hardware design and registers information is loaded from '/home/trevin/workspace/zybo_1B_wrapper/export/zybo_1B_wrapper/hw/zybo_1B_wrapper.xsa'.
+23:00:43 INFO  : 'configparams force-mem-access 1' command is executed.
+23:00:43 INFO  : Context for 'APU' is selected.
+23:00:43 INFO  : Sourcing of '/home/trevin/workspace/LED_test/_ide/psinit/ps7_init.tcl' is done.
+23:00:43 INFO  : 'ps7_init' command is executed.
+23:00:43 INFO  : 'ps7_post_config' command is executed.
+23:00:43 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:00:43 INFO  : The application '/home/trevin/workspace/LED_test/Debug/LED_test.elf' is downloaded to processor 'ps7_cortexa9_0'.
+23:00:43 INFO  : 'configparams force-mem-access 0' command is executed.
+23:00:43 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BA00A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BA00A-23727093-0"}
+fpga -file /home/trevin/workspace/LED_test/_ide/bitstream/zybo_1B_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/trevin/workspace/zybo_1B_wrapper/export/zybo_1B_wrapper/hw/zybo_1B_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/trevin/workspace/LED_test/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/trevin/workspace/LED_test/Debug/LED_test.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+23:00:43 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:00:43 INFO  : 'con' command is executed.
+23:00:43 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+23:00:43 INFO  : Launch script is exported to file '/home/trevin/workspace/LED_test_system/_ide/scripts/systemdebugger_led_test_system_1_standalone.tcl'
+23:03:04 INFO  : Disconnected from the channel tcfchan#4.
+23:03:05 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:03:05 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7BA00A' is selected.
+23:03:05 INFO  : 'jtag frequency' command is executed.
+23:03:05 INFO  : Context for 'APU' is selected.
+23:03:05 INFO  : System reset is completed.
+23:03:08 INFO  : 'after 3000' command is executed.
+23:03:08 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BA00A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BA00A-23727093-0"}' command is executed.
+23:03:10 INFO  : Device configured successfully with "/home/trevin/workspace/LED_test/_ide/bitstream/zybo_1B_wrapper.bit"
+23:03:10 INFO  : Context for 'APU' is selected.
+23:03:11 INFO  : Hardware design and registers information is loaded from '/home/trevin/workspace/zybo_1B_wrapper/export/zybo_1B_wrapper/hw/zybo_1B_wrapper.xsa'.
+23:03:11 INFO  : 'configparams force-mem-access 1' command is executed.
+23:03:11 INFO  : Context for 'APU' is selected.
+23:03:11 INFO  : Sourcing of '/home/trevin/workspace/LED_test/_ide/psinit/ps7_init.tcl' is done.
+23:03:11 INFO  : 'ps7_init' command is executed.
+23:03:11 INFO  : 'ps7_post_config' command is executed.
+23:03:11 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:03:11 INFO  : The application '/home/trevin/workspace/LED_test/Debug/LED_test.elf' is downloaded to processor 'ps7_cortexa9_0'.
+23:03:11 INFO  : 'configparams force-mem-access 0' command is executed.
+23:03:11 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BA00A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BA00A-23727093-0"}
+fpga -file /home/trevin/workspace/LED_test/_ide/bitstream/zybo_1B_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/trevin/workspace/zybo_1B_wrapper/export/zybo_1B_wrapper/hw/zybo_1B_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/trevin/workspace/LED_test/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/trevin/workspace/LED_test/Debug/LED_test.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+23:03:11 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:03:11 INFO  : 'con' command is executed.
+23:03:11 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+23:03:11 INFO  : Launch script is exported to file '/home/trevin/workspace/LED_test_system/_ide/scripts/debugger_led_test-default_1.tcl'
+23:05:59 INFO  : Checking for BSP changes to sync application flags for project 'LED_test'...
+23:06:10 INFO  : Disconnected from the channel tcfchan#5.
+23:06:11 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:06:11 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7BA00A' is selected.
+23:06:11 INFO  : 'jtag frequency' command is executed.
+23:06:11 INFO  : Context for 'APU' is selected.
+23:06:11 INFO  : System reset is completed.
+23:06:14 INFO  : 'after 3000' command is executed.
+23:06:14 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BA00A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BA00A-23727093-0"}' command is executed.
+23:06:17 INFO  : Device configured successfully with "/home/trevin/workspace/LED_test/_ide/bitstream/zybo_1B_wrapper.bit"
+23:06:17 INFO  : Context for 'APU' is selected.
+23:06:17 INFO  : Hardware design and registers information is loaded from '/home/trevin/workspace/zybo_1B_wrapper/export/zybo_1B_wrapper/hw/zybo_1B_wrapper.xsa'.
+23:06:17 INFO  : 'configparams force-mem-access 1' command is executed.
+23:06:17 INFO  : Context for 'APU' is selected.
+23:06:17 INFO  : Sourcing of '/home/trevin/workspace/LED_test/_ide/psinit/ps7_init.tcl' is done.
+23:06:17 INFO  : 'ps7_init' command is executed.
+23:06:17 INFO  : 'ps7_post_config' command is executed.
+23:06:17 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:06:17 INFO  : The application '/home/trevin/workspace/LED_test/Debug/LED_test.elf' is downloaded to processor 'ps7_cortexa9_0'.
+23:06:17 INFO  : 'configparams force-mem-access 0' command is executed.
+23:06:17 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BA00A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BA00A-23727093-0"}
+fpga -file /home/trevin/workspace/LED_test/_ide/bitstream/zybo_1B_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/trevin/workspace/zybo_1B_wrapper/export/zybo_1B_wrapper/hw/zybo_1B_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/trevin/workspace/LED_test/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/trevin/workspace/LED_test/Debug/LED_test.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+23:06:17 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:06:17 INFO  : 'con' command is executed.
+23:06:17 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+23:06:17 INFO  : Launch script is exported to file '/home/trevin/workspace/LED_test_system/_ide/scripts/systemdebugger_led_test_system_2_standalone.tcl'
+23:22:38 INFO  : Disconnected from the channel tcfchan#6.
+23:22:53 INFO  : Launching XSCT server: xsct -n  -interactive /home/trevin/workspace/temp_xsdb_launch_script.tcl
+23:22:56 INFO  : XSCT server has started successfully.
+23:22:56 INFO  : plnx-install-location is set to ''
+23:22:56 INFO  : Successfully done setting XSCT server connection channel  
+23:22:56 INFO  : Successfully done setting workspace for the tool. 
+23:22:56 INFO  : Platform repository initialization has completed.
+23:22:56 INFO  : Successfully done query RDI_DATADIR 
+23:22:56 INFO  : Registering command handlers for Vitis TCF services
+23:25:36 INFO  : Checking for BSP changes to sync application flags for project 'LED_test'...
+23:27:30 INFO  : Result from executing command 'getProjects': zybo_1b_plateform
+23:27:30 INFO  : Result from executing command 'getPlatforms': zybo_1B_wrapper|/home/trevin/workspace/zybo_1B_wrapper/export/zybo_1B_wrapper/zybo_1B_wrapper.xpfm
+23:28:17 INFO  : Result from executing command 'getProjects': zybo_1b_plateform
+23:28:17 INFO  : Result from executing command 'getPlatforms': zybo_1B_wrapper|/home/trevin/workspace/zybo_1B_wrapper/export/zybo_1B_wrapper/zybo_1B_wrapper.xpfm;zybo_1b_plateform|/home/trevin/workspace/zybo_1b_plateform/export/zybo_1b_plateform/zybo_1b_plateform.xpfm
+23:32:44 INFO  : Launching XSCT server: xsct -n  -interactive /home/trevin/workspace/temp_xsdb_launch_script.tcl
+23:32:44 INFO  : Registering command handlers for Vitis TCF services
+23:32:46 INFO  : Platform repository initialization has completed.
+23:32:47 INFO  : XSCT server has started successfully.
+23:32:47 INFO  : plnx-install-location is set to ''
+23:32:47 INFO  : Successfully done setting XSCT server connection channel  
+23:32:47 INFO  : Successfully done query RDI_DATADIR 
+23:32:47 INFO  : Successfully done setting workspace for the tool. 
+23:36:30 INFO  : Result from executing command 'getProjects': zybo_1B_wrapper_updated
+23:36:30 INFO  : Result from executing command 'getPlatforms': zybo_1B_wrapper|/home/trevin/workspace/zybo_1B_wrapper/export/zybo_1B_wrapper/zybo_1B_wrapper.xpfm
+23:36:30 WARN  : An unexpected exception occurred in the module 'platform project logging'
+23:36:30 INFO  : Platform 'zybo_1B_wrapper_updated' is added to custom repositories.
+23:36:35 INFO  : Platform 'zybo_1B_wrapper_updated' is added to custom repositories.
+23:38:34 INFO  : Result from executing command 'getProjects': zybo_1B_wrapper_updated
+23:38:34 INFO  : Result from executing command 'getPlatforms': zybo_1B_wrapper_updated|/home/trevin/workspace/zybo_1B_wrapper_updated/export/zybo_1B_wrapper_updated/zybo_1B_wrapper_updated.xpfm;zybo_1B_wrapper|/home/trevin/workspace/zybo_1B_wrapper/export/zybo_1B_wrapper/zybo_1B_wrapper.xpfm
+23:38:37 INFO  : Checking for BSP changes to sync application flags for project 'led_test'...
+23:41:12 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:41:12 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7BA00A' is selected.
+23:41:12 INFO  : 'jtag frequency' command is executed.
+23:41:12 INFO  : Context for 'APU' is selected.
+23:41:12 INFO  : System reset is completed.
+23:41:15 INFO  : 'after 3000' command is executed.
+23:41:15 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BA00A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BA00A-23727093-0"}' command is executed.
+23:41:18 INFO  : Device configured successfully with "/home/trevin/workspace/led_test/_ide/bitstream/zybo_1B_wrapper_updated.bit"
+23:41:18 INFO  : Context for 'APU' is selected.
+23:41:18 INFO  : Hardware design and registers information is loaded from '/home/trevin/workspace/zybo_1B_wrapper_updated/export/zybo_1B_wrapper_updated/hw/zybo_1B_wrapper_updated.xsa'.
+23:41:18 INFO  : 'configparams force-mem-access 1' command is executed.
+23:41:18 INFO  : Context for 'APU' is selected.
+23:41:18 INFO  : Sourcing of '/home/trevin/workspace/led_test/_ide/psinit/ps7_init.tcl' is done.
+23:41:18 INFO  : 'ps7_init' command is executed.
+23:41:18 INFO  : 'ps7_post_config' command is executed.
+23:41:18 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:41:18 INFO  : The application '/home/trevin/workspace/led_test/Debug/led_test.elf' is downloaded to processor 'ps7_cortexa9_0'.
+23:41:18 INFO  : 'configparams force-mem-access 0' command is executed.
+23:41:18 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BA00A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BA00A-23727093-0"}
+fpga -file /home/trevin/workspace/led_test/_ide/bitstream/zybo_1B_wrapper_updated.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/trevin/workspace/zybo_1B_wrapper_updated/export/zybo_1B_wrapper_updated/hw/zybo_1B_wrapper_updated.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/trevin/workspace/led_test/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/trevin/workspace/led_test/Debug/led_test.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+23:41:18 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:41:18 INFO  : 'con' command is executed.
+23:41:18 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+23:41:18 INFO  : Launch script is exported to file '/home/trevin/workspace/led_test_system/_ide/scripts/debugger_led_test-default.tcl'
+23:51:46 INFO  : Checking for BSP changes to sync application flags for project 'led_test'...
+23:52:00 INFO  : Disconnected from the channel tcfchan#2.
+23:52:01 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:52:01 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7BA00A' is selected.
+23:52:01 INFO  : 'jtag frequency' command is executed.
+23:52:01 INFO  : Context for 'APU' is selected.
+23:52:01 INFO  : System reset is completed.
+23:52:04 INFO  : 'after 3000' command is executed.
+23:52:04 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BA00A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BA00A-23727093-0"}' command is executed.
+23:52:07 INFO  : Device configured successfully with "/home/trevin/workspace/led_test/_ide/bitstream/zybo_1B_wrapper_updated.bit"
+23:52:07 INFO  : Context for 'APU' is selected.
+23:52:07 INFO  : Hardware design and registers information is loaded from '/home/trevin/workspace/zybo_1B_wrapper_updated/export/zybo_1B_wrapper_updated/hw/zybo_1B_wrapper_updated.xsa'.
+23:52:07 INFO  : 'configparams force-mem-access 1' command is executed.
+23:52:07 INFO  : Context for 'APU' is selected.
+23:52:07 INFO  : Sourcing of '/home/trevin/workspace/led_test/_ide/psinit/ps7_init.tcl' is done.
+23:52:07 INFO  : 'ps7_init' command is executed.
+23:52:07 INFO  : 'ps7_post_config' command is executed.
+23:52:07 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:52:07 INFO  : The application '/home/trevin/workspace/led_test/Debug/led_test.elf' is downloaded to processor 'ps7_cortexa9_0'.
+23:52:07 INFO  : 'configparams force-mem-access 0' command is executed.
+23:52:07 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BA00A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BA00A-23727093-0"}
+fpga -file /home/trevin/workspace/led_test/_ide/bitstream/zybo_1B_wrapper_updated.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/trevin/workspace/zybo_1B_wrapper_updated/export/zybo_1B_wrapper_updated/hw/zybo_1B_wrapper_updated.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/trevin/workspace/led_test/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/trevin/workspace/led_test/Debug/led_test.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+23:52:07 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:52:07 INFO  : 'con' command is executed.
+23:52:07 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+23:52:07 INFO  : Launch script is exported to file '/home/trevin/workspace/led_test_system/_ide/scripts/debugger_led_test-default.tcl'
+23:54:02 INFO  : Checking for BSP changes to sync application flags for project 'led_test'...
+23:54:27 INFO  : Disconnected from the channel tcfchan#3.
+23:54:28 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:54:28 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7BA00A' is selected.
+23:54:28 INFO  : 'jtag frequency' command is executed.
+23:54:28 INFO  : Context for 'APU' is selected.
+23:54:28 INFO  : System reset is completed.
+23:54:31 INFO  : 'after 3000' command is executed.
+23:54:31 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BA00A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BA00A-23727093-0"}' command is executed.
+23:54:34 INFO  : Device configured successfully with "/home/trevin/workspace/led_test/_ide/bitstream/zybo_1B_wrapper_updated.bit"
+23:54:34 INFO  : Context for 'APU' is selected.
+23:54:34 INFO  : Hardware design and registers information is loaded from '/home/trevin/workspace/zybo_1B_wrapper_updated/export/zybo_1B_wrapper_updated/hw/zybo_1B_wrapper_updated.xsa'.
+23:54:34 INFO  : 'configparams force-mem-access 1' command is executed.
+23:54:34 INFO  : Context for 'APU' is selected.
+23:54:34 INFO  : Sourcing of '/home/trevin/workspace/led_test/_ide/psinit/ps7_init.tcl' is done.
+23:54:34 INFO  : 'ps7_init' command is executed.
+23:54:34 INFO  : 'ps7_post_config' command is executed.
+23:54:34 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:54:34 INFO  : The application '/home/trevin/workspace/led_test/Debug/led_test.elf' is downloaded to processor 'ps7_cortexa9_0'.
+23:54:34 INFO  : 'configparams force-mem-access 0' command is executed.
+23:54:34 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BA00A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BA00A-23727093-0"}
+fpga -file /home/trevin/workspace/led_test/_ide/bitstream/zybo_1B_wrapper_updated.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/trevin/workspace/zybo_1B_wrapper_updated/export/zybo_1B_wrapper_updated/hw/zybo_1B_wrapper_updated.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/trevin/workspace/led_test/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/trevin/workspace/led_test/Debug/led_test.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+23:54:34 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:54:34 INFO  : 'con' command is executed.
+23:54:34 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+23:54:34 INFO  : Launch script is exported to file '/home/trevin/workspace/led_test_system/_ide/scripts/debugger_led_test-default.tcl'
+23:55:23 INFO  : Disconnected from the channel tcfchan#4.
+23:55:24 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:55:24 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7BA00A' is selected.
+23:55:24 INFO  : 'jtag frequency' command is executed.
+23:55:24 INFO  : Context for 'APU' is selected.
+23:55:24 INFO  : System reset is completed.
+23:55:27 INFO  : 'after 3000' command is executed.
+23:55:27 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BA00A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BA00A-23727093-0"}' command is executed.
+23:55:30 INFO  : Device configured successfully with "/home/trevin/workspace/led_test/_ide/bitstream/zybo_1B_wrapper_updated.bit"
+23:55:30 INFO  : Context for 'APU' is selected.
+23:55:30 INFO  : Hardware design and registers information is loaded from '/home/trevin/workspace/zybo_1B_wrapper_updated/export/zybo_1B_wrapper_updated/hw/zybo_1B_wrapper_updated.xsa'.
+23:55:30 INFO  : 'configparams force-mem-access 1' command is executed.
+23:55:30 INFO  : Context for 'APU' is selected.
+23:55:30 INFO  : Sourcing of '/home/trevin/workspace/led_test/_ide/psinit/ps7_init.tcl' is done.
+23:55:30 INFO  : 'ps7_init' command is executed.
+23:55:30 INFO  : 'ps7_post_config' command is executed.
+23:55:30 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:55:30 INFO  : The application '/home/trevin/workspace/led_test/Debug/led_test.elf' is downloaded to processor 'ps7_cortexa9_0'.
+23:55:30 INFO  : 'configparams force-mem-access 0' command is executed.
+23:55:30 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BA00A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BA00A-23727093-0"}
+fpga -file /home/trevin/workspace/led_test/_ide/bitstream/zybo_1B_wrapper_updated.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/trevin/workspace/zybo_1B_wrapper_updated/export/zybo_1B_wrapper_updated/hw/zybo_1B_wrapper_updated.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/trevin/workspace/led_test/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/trevin/workspace/led_test/Debug/led_test.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+23:55:30 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:55:30 INFO  : 'con' command is executed.
+23:55:30 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+23:55:30 INFO  : Launch script is exported to file '/home/trevin/workspace/led_test_system/_ide/scripts/debugger_led_test-default.tcl'
+23:55:44 INFO  : Checking for BSP changes to sync application flags for project 'led_test'...
+23:56:00 INFO  : Disconnected from the channel tcfchan#5.
+23:56:01 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:56:01 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7BA00A' is selected.
+23:56:01 INFO  : 'jtag frequency' command is executed.
+23:56:01 INFO  : Context for 'APU' is selected.
+23:56:01 INFO  : System reset is completed.
+23:56:04 INFO  : 'after 3000' command is executed.
+23:56:04 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BA00A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BA00A-23727093-0"}' command is executed.
+23:56:07 INFO  : Device configured successfully with "/home/trevin/workspace/led_test/_ide/bitstream/zybo_1B_wrapper_updated.bit"
+23:56:07 INFO  : Context for 'APU' is selected.
+23:56:07 INFO  : Hardware design and registers information is loaded from '/home/trevin/workspace/zybo_1B_wrapper_updated/export/zybo_1B_wrapper_updated/hw/zybo_1B_wrapper_updated.xsa'.
+23:56:07 INFO  : 'configparams force-mem-access 1' command is executed.
+23:56:07 INFO  : Context for 'APU' is selected.
+23:56:07 INFO  : Sourcing of '/home/trevin/workspace/led_test/_ide/psinit/ps7_init.tcl' is done.
+23:56:07 INFO  : 'ps7_init' command is executed.
+23:56:07 INFO  : 'ps7_post_config' command is executed.
+23:56:07 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:56:07 INFO  : The application '/home/trevin/workspace/led_test/Debug/led_test.elf' is downloaded to processor 'ps7_cortexa9_0'.
+23:56:07 INFO  : 'configparams force-mem-access 0' command is executed.
+23:56:07 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BA00A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BA00A-23727093-0"}
+fpga -file /home/trevin/workspace/led_test/_ide/bitstream/zybo_1B_wrapper_updated.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/trevin/workspace/zybo_1B_wrapper_updated/export/zybo_1B_wrapper_updated/hw/zybo_1B_wrapper_updated.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/trevin/workspace/led_test/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/trevin/workspace/led_test/Debug/led_test.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+23:56:07 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:56:07 INFO  : 'con' command is executed.
+23:56:07 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+23:56:07 INFO  : Launch script is exported to file '/home/trevin/workspace/led_test_system/_ide/scripts/debugger_led_test-default.tcl'
+23:56:34 INFO  : Checking for BSP changes to sync application flags for project 'led_test'...
+23:56:42 INFO  : Disconnected from the channel tcfchan#6.
+23:56:43 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:56:43 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7BA00A' is selected.
+23:56:43 INFO  : 'jtag frequency' command is executed.
+23:56:43 INFO  : Context for 'APU' is selected.
+23:56:43 INFO  : System reset is completed.
+23:56:46 INFO  : 'after 3000' command is executed.
+23:56:47 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BA00A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BA00A-23727093-0"}' command is executed.
+23:56:49 INFO  : Device configured successfully with "/home/trevin/workspace/led_test/_ide/bitstream/zybo_1B_wrapper_updated.bit"
+23:56:49 INFO  : Context for 'APU' is selected.
+23:56:49 INFO  : Hardware design and registers information is loaded from '/home/trevin/workspace/zybo_1B_wrapper_updated/export/zybo_1B_wrapper_updated/hw/zybo_1B_wrapper_updated.xsa'.
+23:56:49 INFO  : 'configparams force-mem-access 1' command is executed.
+23:56:49 INFO  : Context for 'APU' is selected.
+23:56:49 INFO  : Sourcing of '/home/trevin/workspace/led_test/_ide/psinit/ps7_init.tcl' is done.
+23:56:49 INFO  : 'ps7_init' command is executed.
+23:56:49 INFO  : 'ps7_post_config' command is executed.
+23:56:49 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:56:49 INFO  : The application '/home/trevin/workspace/led_test/Debug/led_test.elf' is downloaded to processor 'ps7_cortexa9_0'.
+23:56:49 INFO  : 'configparams force-mem-access 0' command is executed.
+23:56:49 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BA00A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BA00A-23727093-0"}
+fpga -file /home/trevin/workspace/led_test/_ide/bitstream/zybo_1B_wrapper_updated.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/trevin/workspace/zybo_1B_wrapper_updated/export/zybo_1B_wrapper_updated/hw/zybo_1B_wrapper_updated.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/trevin/workspace/led_test/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/trevin/workspace/led_test/Debug/led_test.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+23:56:49 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:56:49 INFO  : 'con' command is executed.
+23:56:49 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+23:56:49 INFO  : Launch script is exported to file '/home/trevin/workspace/led_test_system/_ide/scripts/debugger_led_test-default.tcl'
+23:58:09 INFO  : Checking for BSP changes to sync application flags for project 'led_test'...
+23:58:14 INFO  : Disconnected from the channel tcfchan#7.
+23:58:15 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:58:15 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7BA00A' is selected.
+23:58:15 INFO  : 'jtag frequency' command is executed.
+23:58:15 INFO  : Context for 'APU' is selected.
+23:58:15 INFO  : System reset is completed.
+23:58:18 INFO  : 'after 3000' command is executed.
+23:58:18 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BA00A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BA00A-23727093-0"}' command is executed.
+23:58:20 INFO  : Device configured successfully with "/home/trevin/workspace/led_test/_ide/bitstream/zybo_1B_wrapper_updated.bit"
+23:58:20 INFO  : Context for 'APU' is selected.
+23:58:20 INFO  : Hardware design and registers information is loaded from '/home/trevin/workspace/zybo_1B_wrapper_updated/export/zybo_1B_wrapper_updated/hw/zybo_1B_wrapper_updated.xsa'.
+23:58:20 INFO  : 'configparams force-mem-access 1' command is executed.
+23:58:20 INFO  : Context for 'APU' is selected.
+23:58:20 INFO  : Sourcing of '/home/trevin/workspace/led_test/_ide/psinit/ps7_init.tcl' is done.
+23:58:21 INFO  : 'ps7_init' command is executed.
+23:58:21 INFO  : 'ps7_post_config' command is executed.
+23:58:21 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:58:21 INFO  : The application '/home/trevin/workspace/led_test/Debug/led_test.elf' is downloaded to processor 'ps7_cortexa9_0'.
+23:58:21 INFO  : 'configparams force-mem-access 0' command is executed.
+23:58:21 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BA00A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BA00A-23727093-0"}
+fpga -file /home/trevin/workspace/led_test/_ide/bitstream/zybo_1B_wrapper_updated.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/trevin/workspace/zybo_1B_wrapper_updated/export/zybo_1B_wrapper_updated/hw/zybo_1B_wrapper_updated.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/trevin/workspace/led_test/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/trevin/workspace/led_test/Debug/led_test.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+23:58:21 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:58:21 INFO  : 'con' command is executed.
+23:58:21 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+23:58:21 INFO  : Launch script is exported to file '/home/trevin/workspace/led_test_system/_ide/scripts/debugger_led_test-default.tcl'
+16:07:03 INFO  : Checking for BSP changes to sync application flags for project 'led_test'...
+16:07:11 INFO  : Disconnected from the channel tcfchan#8.
+16:07:12 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:07:12 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7BA00A' is selected.
+16:07:12 INFO  : 'jtag frequency' command is executed.
+16:07:12 INFO  : Context for 'APU' is selected.
+16:07:12 INFO  : System reset is completed.
+16:07:15 INFO  : 'after 3000' command is executed.
+16:07:15 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BA00A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BA00A-23727093-0"}' command is executed.
+16:07:17 INFO  : Device configured successfully with "/home/trevin/workspace/led_test/_ide/bitstream/zybo_1B_wrapper_updated.bit"
+16:07:17 INFO  : Context for 'APU' is selected.
+16:07:17 INFO  : Hardware design and registers information is loaded from '/home/trevin/workspace/zybo_1B_wrapper_updated/export/zybo_1B_wrapper_updated/hw/zybo_1B_wrapper_updated.xsa'.
+16:07:17 INFO  : 'configparams force-mem-access 1' command is executed.
+16:07:17 INFO  : Context for 'APU' is selected.
+16:07:17 INFO  : Sourcing of '/home/trevin/workspace/led_test/_ide/psinit/ps7_init.tcl' is done.
+16:07:17 INFO  : 'ps7_init' command is executed.
+16:07:17 INFO  : 'ps7_post_config' command is executed.
+16:07:17 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:07:18 INFO  : The application '/home/trevin/workspace/led_test/Debug/led_test.elf' is downloaded to processor 'ps7_cortexa9_0'.
+16:07:18 INFO  : 'configparams force-mem-access 0' command is executed.
+16:07:18 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BA00A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BA00A-23727093-0"}
+fpga -file /home/trevin/workspace/led_test/_ide/bitstream/zybo_1B_wrapper_updated.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/trevin/workspace/zybo_1B_wrapper_updated/export/zybo_1B_wrapper_updated/hw/zybo_1B_wrapper_updated.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/trevin/workspace/led_test/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/trevin/workspace/led_test/Debug/led_test.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+16:07:18 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:07:18 INFO  : 'con' command is executed.
+16:07:18 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+16:07:18 INFO  : Launch script is exported to file '/home/trevin/workspace/led_test_system/_ide/scripts/debugger_led_test-default.tcl'
+16:20:30 INFO  : Checking for BSP changes to sync application flags for project 'led_test'...
+16:22:47 INFO  : Checking for BSP changes to sync application flags for project 'led_test'...
+16:23:01 INFO  : Checking for BSP changes to sync application flags for project 'led_test'...
+16:23:18 INFO  : Disconnected from the channel tcfchan#9.
+16:23:19 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:23:19 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7BA00A' is selected.
+16:23:19 INFO  : 'jtag frequency' command is executed.
+16:23:19 INFO  : Context for 'APU' is selected.
+16:23:19 INFO  : System reset is completed.
+16:23:22 INFO  : 'after 3000' command is executed.
+16:23:22 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BA00A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BA00A-23727093-0"}' command is executed.
+16:23:24 INFO  : Device configured successfully with "/home/trevin/workspace/led_test/_ide/bitstream/zybo_1B_wrapper_updated.bit"
+16:23:24 INFO  : Context for 'APU' is selected.
+16:23:24 INFO  : Hardware design and registers information is loaded from '/home/trevin/workspace/zybo_1B_wrapper_updated/export/zybo_1B_wrapper_updated/hw/zybo_1B_wrapper_updated.xsa'.
+16:23:24 INFO  : 'configparams force-mem-access 1' command is executed.
+16:23:24 INFO  : Context for 'APU' is selected.
+16:23:24 INFO  : Sourcing of '/home/trevin/workspace/led_test/_ide/psinit/ps7_init.tcl' is done.
+16:23:24 INFO  : 'ps7_init' command is executed.
+16:23:24 INFO  : 'ps7_post_config' command is executed.
+16:23:24 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:23:25 INFO  : The application '/home/trevin/workspace/led_test/Debug/led_test.elf' is downloaded to processor 'ps7_cortexa9_0'.
+16:23:25 INFO  : 'configparams force-mem-access 0' command is executed.
+16:23:25 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BA00A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BA00A-23727093-0"}
+fpga -file /home/trevin/workspace/led_test/_ide/bitstream/zybo_1B_wrapper_updated.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/trevin/workspace/zybo_1B_wrapper_updated/export/zybo_1B_wrapper_updated/hw/zybo_1B_wrapper_updated.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/trevin/workspace/led_test/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/trevin/workspace/led_test/Debug/led_test.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+16:23:25 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:23:25 INFO  : 'con' command is executed.
+16:23:25 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+16:23:25 INFO  : Launch script is exported to file '/home/trevin/workspace/led_test_system/_ide/scripts/debugger_led_test-default.tcl'
+16:24:45 INFO  : Checking for BSP changes to sync application flags for project 'led_test'...
+16:24:52 INFO  : Disconnected from the channel tcfchan#10.
+16:24:53 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:24:53 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7BA00A' is selected.
+16:24:53 INFO  : 'jtag frequency' command is executed.
+16:24:53 INFO  : Context for 'APU' is selected.
+16:24:53 INFO  : System reset is completed.
+16:24:56 INFO  : 'after 3000' command is executed.
+16:24:56 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BA00A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BA00A-23727093-0"}' command is executed.
+16:24:58 INFO  : Device configured successfully with "/home/trevin/workspace/led_test/_ide/bitstream/zybo_1B_wrapper_updated.bit"
+16:24:58 INFO  : Context for 'APU' is selected.
+16:24:58 INFO  : Hardware design and registers information is loaded from '/home/trevin/workspace/zybo_1B_wrapper_updated/export/zybo_1B_wrapper_updated/hw/zybo_1B_wrapper_updated.xsa'.
+16:24:58 INFO  : 'configparams force-mem-access 1' command is executed.
+16:24:58 INFO  : Context for 'APU' is selected.
+16:24:58 INFO  : Sourcing of '/home/trevin/workspace/led_test/_ide/psinit/ps7_init.tcl' is done.
+16:24:58 INFO  : 'ps7_init' command is executed.
+16:24:58 INFO  : 'ps7_post_config' command is executed.
+16:24:58 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:24:58 INFO  : The application '/home/trevin/workspace/led_test/Debug/led_test.elf' is downloaded to processor 'ps7_cortexa9_0'.
+16:24:58 INFO  : 'configparams force-mem-access 0' command is executed.
+16:24:58 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BA00A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BA00A-23727093-0"}
+fpga -file /home/trevin/workspace/led_test/_ide/bitstream/zybo_1B_wrapper_updated.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/trevin/workspace/zybo_1B_wrapper_updated/export/zybo_1B_wrapper_updated/hw/zybo_1B_wrapper_updated.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/trevin/workspace/led_test/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/trevin/workspace/led_test/Debug/led_test.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+16:24:58 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:24:58 INFO  : 'con' command is executed.
+16:24:58 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+16:24:58 INFO  : Launch script is exported to file '/home/trevin/workspace/led_test_system/_ide/scripts/debugger_led_test-default.tcl'
+16:25:28 INFO  : Checking for BSP changes to sync application flags for project 'led_test'...
+16:25:34 INFO  : Disconnected from the channel tcfchan#11.
+16:25:35 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:25:36 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7BA00A' is selected.
+16:25:36 INFO  : 'jtag frequency' command is executed.
+16:25:36 INFO  : Context for 'APU' is selected.
+16:25:36 INFO  : System reset is completed.
+16:25:39 INFO  : 'after 3000' command is executed.
+16:25:39 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BA00A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BA00A-23727093-0"}' command is executed.
+16:25:41 INFO  : Device configured successfully with "/home/trevin/workspace/led_test/_ide/bitstream/zybo_1B_wrapper_updated.bit"
+16:25:41 INFO  : Context for 'APU' is selected.
+16:25:41 INFO  : Hardware design and registers information is loaded from '/home/trevin/workspace/zybo_1B_wrapper_updated/export/zybo_1B_wrapper_updated/hw/zybo_1B_wrapper_updated.xsa'.
+16:25:41 INFO  : 'configparams force-mem-access 1' command is executed.
+16:25:41 INFO  : Context for 'APU' is selected.
+16:25:41 INFO  : Sourcing of '/home/trevin/workspace/led_test/_ide/psinit/ps7_init.tcl' is done.
+16:25:41 INFO  : 'ps7_init' command is executed.
+16:25:41 INFO  : 'ps7_post_config' command is executed.
+16:25:41 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:25:41 INFO  : The application '/home/trevin/workspace/led_test/Debug/led_test.elf' is downloaded to processor 'ps7_cortexa9_0'.
+16:25:41 INFO  : 'configparams force-mem-access 0' command is executed.
+16:25:41 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BA00A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BA00A-23727093-0"}
+fpga -file /home/trevin/workspace/led_test/_ide/bitstream/zybo_1B_wrapper_updated.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/trevin/workspace/zybo_1B_wrapper_updated/export/zybo_1B_wrapper_updated/hw/zybo_1B_wrapper_updated.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/trevin/workspace/led_test/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/trevin/workspace/led_test/Debug/led_test.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+16:25:41 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:25:41 INFO  : 'con' command is executed.
+16:25:41 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+16:25:41 INFO  : Launch script is exported to file '/home/trevin/workspace/led_test_system/_ide/scripts/debugger_led_test-default.tcl'
+16:26:17 INFO  : Checking for BSP changes to sync application flags for project 'led_test'...
+16:26:24 INFO  : Disconnected from the channel tcfchan#12.
+16:26:25 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:26:25 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7BA00A' is selected.
+16:26:25 INFO  : 'jtag frequency' command is executed.
+16:26:25 INFO  : Context for 'APU' is selected.
+16:26:25 INFO  : System reset is completed.
+16:26:28 INFO  : 'after 3000' command is executed.
+16:26:28 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BA00A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BA00A-23727093-0"}' command is executed.
+16:26:30 INFO  : Device configured successfully with "/home/trevin/workspace/led_test/_ide/bitstream/zybo_1B_wrapper_updated.bit"
+16:26:30 INFO  : Context for 'APU' is selected.
+16:26:30 INFO  : Hardware design and registers information is loaded from '/home/trevin/workspace/zybo_1B_wrapper_updated/export/zybo_1B_wrapper_updated/hw/zybo_1B_wrapper_updated.xsa'.
+16:26:30 INFO  : 'configparams force-mem-access 1' command is executed.
+16:26:30 INFO  : Context for 'APU' is selected.
+16:26:30 INFO  : Sourcing of '/home/trevin/workspace/led_test/_ide/psinit/ps7_init.tcl' is done.
+16:26:31 INFO  : 'ps7_init' command is executed.
+16:26:31 INFO  : 'ps7_post_config' command is executed.
+16:26:31 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:26:31 INFO  : The application '/home/trevin/workspace/led_test/Debug/led_test.elf' is downloaded to processor 'ps7_cortexa9_0'.
+16:26:31 INFO  : 'configparams force-mem-access 0' command is executed.
+16:26:31 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BA00A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BA00A-23727093-0"}
+fpga -file /home/trevin/workspace/led_test/_ide/bitstream/zybo_1B_wrapper_updated.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/trevin/workspace/zybo_1B_wrapper_updated/export/zybo_1B_wrapper_updated/hw/zybo_1B_wrapper_updated.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/trevin/workspace/led_test/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/trevin/workspace/led_test/Debug/led_test.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+16:26:31 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:26:31 INFO  : 'con' command is executed.
+16:26:31 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+16:26:31 INFO  : Launch script is exported to file '/home/trevin/workspace/led_test_system/_ide/scripts/debugger_led_test-default.tcl'
+16:29:57 INFO  : Checking for BSP changes to sync application flags for project 'led_test'...
+16:30:45 INFO  : Checking for BSP changes to sync application flags for project 'led_test'...
+16:32:33 INFO  : Checking for BSP changes to sync application flags for project 'led_test'...
+16:32:50 INFO  : Disconnected from the channel tcfchan#13.
+16:32:51 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:32:51 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7BA00A' is selected.
+16:32:51 INFO  : 'jtag frequency' command is executed.
+16:32:51 INFO  : Context for 'APU' is selected.
+16:32:51 INFO  : System reset is completed.
+16:32:54 INFO  : 'after 3000' command is executed.
+16:32:54 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BA00A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BA00A-23727093-0"}' command is executed.
+16:32:57 INFO  : Device configured successfully with "/home/trevin/workspace/led_test/_ide/bitstream/zybo_1B_wrapper_updated.bit"
+16:32:57 INFO  : Context for 'APU' is selected.
+16:32:57 INFO  : Hardware design and registers information is loaded from '/home/trevin/workspace/zybo_1B_wrapper_updated/export/zybo_1B_wrapper_updated/hw/zybo_1B_wrapper_updated.xsa'.
+16:32:57 INFO  : 'configparams force-mem-access 1' command is executed.
+16:32:57 INFO  : Context for 'APU' is selected.
+16:32:57 INFO  : Sourcing of '/home/trevin/workspace/led_test/_ide/psinit/ps7_init.tcl' is done.
+16:32:57 INFO  : 'ps7_init' command is executed.
+16:32:57 INFO  : 'ps7_post_config' command is executed.
+16:32:57 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:32:57 INFO  : The application '/home/trevin/workspace/led_test/Debug/led_test.elf' is downloaded to processor 'ps7_cortexa9_0'.
+16:32:57 INFO  : 'configparams force-mem-access 0' command is executed.
+16:32:57 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BA00A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BA00A-23727093-0"}
+fpga -file /home/trevin/workspace/led_test/_ide/bitstream/zybo_1B_wrapper_updated.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/trevin/workspace/zybo_1B_wrapper_updated/export/zybo_1B_wrapper_updated/hw/zybo_1B_wrapper_updated.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/trevin/workspace/led_test/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/trevin/workspace/led_test/Debug/led_test.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+16:32:57 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:32:57 INFO  : 'con' command is executed.
+16:32:57 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+16:32:57 INFO  : Launch script is exported to file '/home/trevin/workspace/led_test_system/_ide/scripts/debugger_led_test-default.tcl'
+16:33:38 INFO  : Checking for BSP changes to sync application flags for project 'led_test'...
+16:33:49 INFO  : Disconnected from the channel tcfchan#14.
+16:33:50 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:33:50 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7BA00A' is selected.
+16:33:50 INFO  : 'jtag frequency' command is executed.
+16:33:50 INFO  : Context for 'APU' is selected.
+16:33:50 INFO  : System reset is completed.
+16:33:53 INFO  : 'after 3000' command is executed.
+16:33:53 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BA00A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BA00A-23727093-0"}' command is executed.
+16:33:55 INFO  : Device configured successfully with "/home/trevin/workspace/led_test/_ide/bitstream/zybo_1B_wrapper_updated.bit"
+16:33:55 INFO  : Context for 'APU' is selected.
+16:33:55 INFO  : Hardware design and registers information is loaded from '/home/trevin/workspace/zybo_1B_wrapper_updated/export/zybo_1B_wrapper_updated/hw/zybo_1B_wrapper_updated.xsa'.
+16:33:55 INFO  : 'configparams force-mem-access 1' command is executed.
+16:33:55 INFO  : Context for 'APU' is selected.
+16:33:55 INFO  : Sourcing of '/home/trevin/workspace/led_test/_ide/psinit/ps7_init.tcl' is done.
+16:33:56 INFO  : 'ps7_init' command is executed.
+16:33:56 INFO  : 'ps7_post_config' command is executed.
+16:33:56 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:33:56 INFO  : The application '/home/trevin/workspace/led_test/Debug/led_test.elf' is downloaded to processor 'ps7_cortexa9_0'.
+16:33:56 INFO  : 'configparams force-mem-access 0' command is executed.
+16:33:56 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BA00A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BA00A-23727093-0"}
+fpga -file /home/trevin/workspace/led_test/_ide/bitstream/zybo_1B_wrapper_updated.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/trevin/workspace/zybo_1B_wrapper_updated/export/zybo_1B_wrapper_updated/hw/zybo_1B_wrapper_updated.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/trevin/workspace/led_test/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/trevin/workspace/led_test/Debug/led_test.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+16:33:56 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:33:56 INFO  : 'con' command is executed.
+16:33:56 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+16:33:56 INFO  : Launch script is exported to file '/home/trevin/workspace/led_test_system/_ide/scripts/debugger_led_test-default.tcl'
+21:11:37 INFO  : Launching XSCT server: xsct -n  -interactive /home/trevin/workspace/temp_xsdb_launch_script.tcl
+21:11:39 INFO  : XSCT server has started successfully.
+21:11:39 INFO  : Successfully done setting XSCT server connection channel  
+21:11:39 INFO  : plnx-install-location is set to ''
+21:11:39 INFO  : Successfully done setting workspace for the tool. 
+21:11:40 INFO  : Platform repository initialization has completed.
+21:11:40 INFO  : Registering command handlers for Vitis TCF services
+21:11:41 INFO  : Successfully done query RDI_DATADIR 
+21:13:20 INFO  : Result from executing command 'getProjects': zybo_1B_wrapper_updated
+21:13:20 INFO  : Result from executing command 'getPlatforms': zybo_1B_wrapper_updated|/home/trevin/workspace/zybo_1B_wrapper_updated/export/zybo_1B_wrapper_updated/zybo_1B_wrapper_updated.xpfm;zybo_1B_wrapper|/home/trevin/workspace/zybo_1B_wrapper/export/zybo_1B_wrapper/zybo_1B_wrapper.xpfm
+21:13:24 INFO  : Checking for BSP changes to sync application flags for project 'led_test'...
+21:13:25 INFO  : Checking for BSP changes to sync application flags for project 'led_test'...
+21:14:42 INFO  : Result from executing command 'getProjects': interput_wrapper;zybo_1B_wrapper_updated
+21:14:42 INFO  : Result from executing command 'getPlatforms': zybo_1B_wrapper_updated|/home/trevin/workspace/zybo_1B_wrapper_updated/export/zybo_1B_wrapper_updated/zybo_1B_wrapper_updated.xpfm;zybo_1B_wrapper|/home/trevin/workspace/zybo_1B_wrapper/export/zybo_1B_wrapper/zybo_1B_wrapper.xpfm
+21:14:42 WARN  : An unexpected exception occurred in the module 'platform project logging'
+21:14:42 INFO  : Platform 'interput_wrapper' is added to custom repositories.
+21:14:47 INFO  : Platform 'interput_wrapper' is added to custom repositories.
+12:28:34 INFO  : Result from executing command 'getProjects': zybo_1B_wrapper_updated;zybo_2b_interput_pf
+12:28:34 INFO  : Result from executing command 'getPlatforms': interput_wrapper|/home/trevin/workspace/interput_wrapper/export/interput_wrapper/interput_wrapper.xpfm;zybo_1B_wrapper_updated|/home/trevin/workspace/zybo_1B_wrapper_updated/export/zybo_1B_wrapper_updated/zybo_1B_wrapper_updated.xpfm;zybo_1B_wrapper|/home/trevin/workspace/zybo_1B_wrapper/export/zybo_1B_wrapper/zybo_1B_wrapper.xpfm
+12:28:34 INFO  : Platform 'zybo_2b_interput_pf' is added to custom repositories.
+12:28:39 INFO  : Platform 'zybo_2b_interput_pf' is added to custom repositories.
+18:36:24 INFO  : Result from executing command 'getProjects': zybo_1B_wrapper_updated;zybo_2b_interput_pf
+18:36:24 INFO  : Result from executing command 'getPlatforms': interput_wrapper|/home/trevin/workspace/interput_wrapper/export/interput_wrapper/interput_wrapper.xpfm;zybo_1B_wrapper_updated|/home/trevin/workspace/zybo_1B_wrapper_updated/export/zybo_1B_wrapper_updated/zybo_1B_wrapper_updated.xpfm;zybo_1B_wrapper|/home/trevin/workspace/zybo_1B_wrapper/export/zybo_1B_wrapper/zybo_1B_wrapper.xpfm;zybo_2b_interput_pf|/home/trevin/workspace/zybo_2b_interput_pf/export/zybo_2b_interput_pf/zybo_2b_interput_pf.xpfm
+18:36:28 INFO  : Checking for BSP changes to sync application flags for project 'zbyo_2B_interrupt'...
+18:36:47 INFO  : Build configuration of 'zbyo_2B_interrupt_system' is updated to 'Hardware'
+18:36:48 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BA00A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BA00A-23727093-0"}' command is executed.
+18:36:48 INFO  : 'fpga -state' command is executed.
+18:37:16 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BA00A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BA00A-23727093-0"}' command is executed.
+18:37:16 INFO  : 'fpga -state' command is executed.
+18:40:01 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BA00A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BA00A-23727093-0"}' command is executed.
+18:40:01 INFO  : 'fpga -state' command is executed.
+18:40:01 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:40:01 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7BA00A' is selected.
+18:40:01 INFO  : 'jtag frequency' command is executed.
+18:40:01 INFO  : Context for 'APU' is selected.
+18:40:01 INFO  : System reset is completed.
+18:40:04 INFO  : 'after 3000' command is executed.
+18:40:04 INFO  : Context for 'APU' is selected.
+18:40:04 INFO  : Hardware design and registers information is loaded from '/home/trevin/workspace/zybo_2b_interput_pf/export/zybo_2b_interput_pf/hw/zybo_2b_interput_pf.xsa'.
+18:40:04 INFO  : 'configparams force-mem-access 1' command is executed.
+18:40:04 INFO  : Context for 'APU' is selected.
+18:40:04 INFO  : Sourcing of '/home/trevin/workspace/zbyo_2B_interrupt/_ide/psinit/ps7_init.tcl' is done.
+18:40:04 INFO  : 'ps7_init' command is executed.
+18:40:04 INFO  : 'ps7_post_config' command is executed.
+18:40:04 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+18:40:04 INFO  : The application '/home/trevin/workspace/zbyo_2B_interrupt/Debug/zbyo_2B_interrupt.elf' is downloaded to processor 'ps7_cortexa9_0'.
+18:40:04 INFO  : 'configparams force-mem-access 0' command is executed.
+18:40:04 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/trevin/workspace/zybo_2b_interput_pf/export/zybo_2b_interput_pf/hw/zybo_2b_interput_pf.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/trevin/workspace/zbyo_2B_interrupt/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/trevin/workspace/zbyo_2B_interrupt/Debug/zbyo_2B_interrupt.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+18:40:04 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+18:40:04 INFO  : 'con' command is executed.
+18:40:04 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+18:40:04 INFO  : Launch script is exported to file '/home/trevin/workspace/zbyo_2B_interrupt_system/_ide/scripts/systemdebugger_zbyo_2b_interrupt_system_standalone.tcl'
+18:40:38 INFO  : Disconnected from the channel tcfchan#3.
+18:40:39 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BA00A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BA00A-23727093-0"}' command is executed.
+18:40:39 INFO  : 'fpga -state' command is executed.
+18:41:30 INFO  : Checking for BSP changes to sync application flags for project 'zbyo_2B_interrupt'...
+18:41:38 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BA00A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BA00A-23727093-0"}' command is executed.
+18:41:38 INFO  : 'fpga -state' command is executed.
+18:41:38 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:41:38 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7BA00A' is selected.
+18:41:38 INFO  : 'jtag frequency' command is executed.
+18:41:38 INFO  : Context for 'APU' is selected.
+18:41:38 INFO  : System reset is completed.
+18:41:41 INFO  : 'after 3000' command is executed.
+18:41:41 INFO  : Context for 'APU' is selected.
+18:41:41 INFO  : Hardware design and registers information is loaded from '/home/trevin/workspace/zybo_2b_interput_pf/export/zybo_2b_interput_pf/hw/zybo_2b_interput_pf.xsa'.
+18:41:41 INFO  : 'configparams force-mem-access 1' command is executed.
+18:41:41 INFO  : Context for 'APU' is selected.
+18:41:41 INFO  : Sourcing of '/home/trevin/workspace/zbyo_2B_interrupt/_ide/psinit/ps7_init.tcl' is done.
+18:41:41 INFO  : 'ps7_init' command is executed.
+18:41:41 INFO  : 'ps7_post_config' command is executed.
+18:41:41 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+18:41:41 INFO  : The application '/home/trevin/workspace/zbyo_2B_interrupt/Debug/zbyo_2B_interrupt.elf' is downloaded to processor 'ps7_cortexa9_0'.
+18:41:41 INFO  : 'configparams force-mem-access 0' command is executed.
+18:41:41 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/trevin/workspace/zybo_2b_interput_pf/export/zybo_2b_interput_pf/hw/zybo_2b_interput_pf.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/trevin/workspace/zbyo_2B_interrupt/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/trevin/workspace/zbyo_2B_interrupt/Debug/zbyo_2B_interrupt.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+18:41:41 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+18:41:41 INFO  : 'con' command is executed.
+18:41:41 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+18:41:41 INFO  : Launch script is exported to file '/home/trevin/workspace/zbyo_2B_interrupt_system/_ide/scripts/debugger_zbyo_2b_interrupt-default.tcl'
+18:43:22 INFO  : Disconnected from the channel tcfchan#4.
+18:43:23 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BA00A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BA00A-23727093-0"}' command is executed.
+18:43:23 INFO  : 'fpga -state' command is executed.
+18:43:26 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:43:26 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7BA00A' is selected.
+18:43:26 INFO  : 'jtag frequency' command is executed.
+18:43:26 INFO  : Context for 'APU' is selected.
+18:43:26 INFO  : System reset is completed.
+18:43:29 INFO  : 'after 3000' command is executed.
+18:43:29 INFO  : Context for 'APU' is selected.
+18:43:29 INFO  : Hardware design and registers information is loaded from '/home/trevin/workspace/zybo_2b_interput_pf/export/zybo_2b_interput_pf/hw/zybo_2b_interput_pf.xsa'.
+18:43:29 INFO  : 'configparams force-mem-access 1' command is executed.
+18:43:29 INFO  : Context for 'APU' is selected.
+18:43:29 INFO  : Sourcing of '/home/trevin/workspace/zbyo_2B_interrupt/_ide/psinit/ps7_init.tcl' is done.
+18:43:29 INFO  : 'ps7_init' command is executed.
+18:43:29 INFO  : 'ps7_post_config' command is executed.
+18:43:29 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+18:43:29 INFO  : The application '/home/trevin/workspace/zbyo_2B_interrupt/Debug/zbyo_2B_interrupt.elf' is downloaded to processor 'ps7_cortexa9_0'.
+18:43:29 INFO  : 'configparams force-mem-access 0' command is executed.
+18:43:29 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/trevin/workspace/zybo_2b_interput_pf/export/zybo_2b_interput_pf/hw/zybo_2b_interput_pf.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/trevin/workspace/zbyo_2B_interrupt/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/trevin/workspace/zbyo_2B_interrupt/Debug/zbyo_2B_interrupt.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+18:43:29 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+18:43:29 INFO  : 'con' command is executed.
+18:43:29 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+18:43:29 INFO  : Launch script is exported to file '/home/trevin/workspace/zbyo_2B_interrupt_system/_ide/scripts/debugger_zbyo_2b_interrupt-default.tcl'
+18:46:03 INFO  : Disconnected from the channel tcfchan#5.
+18:46:04 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BA00A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BA00A-23727093-0"}' command is executed.
+18:46:04 INFO  : 'fpga -state' command is executed.
+18:46:20 INFO  : Checking for BSP changes to sync application flags for project 'zbyo_2B_interrupt'...
+18:46:41 INFO  : Checking for BSP changes to sync application flags for project 'zbyo_2B_interrupt'...
+18:46:59 INFO  : Checking for BSP changes to sync application flags for project 'zbyo_2B_interrupt'...
+18:56:13 INFO  : Launching XSCT server: xsct -n  -interactive /home/trevin/workspace/temp_xsdb_launch_script.tcl
+18:56:15 INFO  : XSCT server has started successfully.
+18:56:15 INFO  : plnx-install-location is set to ''
+18:56:15 INFO  : Successfully done setting XSCT server connection channel  
+18:56:15 INFO  : Successfully done setting workspace for the tool. 
+18:56:16 INFO  : Platform repository initialization has completed.
+18:56:16 INFO  : Registering command handlers for Vitis TCF services
+18:56:17 INFO  : Successfully done query RDI_DATADIR 
+18:56:49 INFO  : Checking for BSP changes to sync application flags for project 'zbyo_2B_interrupt'...
+18:57:03 INFO  : Checking for BSP changes to sync application flags for project 'led_test'...
+18:57:09 ERROR : (XSDB Server)ERROR: [Hsi 55-1571] The design file /home/trevin/workspace/zybo_1B_wrapper_updated/export/zybo_1B_wrapper_updated/hw/zybo_1B_wrapper_updated.xsa is already opened
+
+18:57:20 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BA00A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BA00A-23727093-0"}' command is executed.
+18:57:20 INFO  : 'fpga -state' command is executed.
+18:57:20 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:57:20 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7BA00A' is selected.
+18:57:20 INFO  : 'jtag frequency' command is executed.
+18:57:20 INFO  : Context for 'APU' is selected.
+18:57:20 INFO  : System reset is completed.
+18:57:23 INFO  : 'after 3000' command is executed.
+18:57:23 INFO  : Context for 'APU' is selected.
+18:57:23 INFO  : Hardware design and registers information is loaded from '/home/trevin/workspace/zybo_2b_interput_pf/export/zybo_2b_interput_pf/hw/zybo_2b_interput_pf.xsa'.
+18:57:23 INFO  : 'configparams force-mem-access 1' command is executed.
+18:57:23 INFO  : Context for 'APU' is selected.
+18:57:23 INFO  : Sourcing of '/home/trevin/workspace/zbyo_2B_interrupt/_ide/psinit/ps7_init.tcl' is done.
+18:57:24 INFO  : 'ps7_init' command is executed.
+18:57:24 INFO  : 'ps7_post_config' command is executed.
+18:57:24 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+18:57:24 INFO  : The application '/home/trevin/workspace/zbyo_2B_interrupt/Debug/zbyo_2B_interrupt.elf' is downloaded to processor 'ps7_cortexa9_0'.
+18:57:24 INFO  : 'configparams force-mem-access 0' command is executed.
+18:57:24 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/trevin/workspace/zybo_2b_interput_pf/export/zybo_2b_interput_pf/hw/zybo_2b_interput_pf.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/trevin/workspace/zbyo_2B_interrupt/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/trevin/workspace/zbyo_2B_interrupt/Debug/zbyo_2B_interrupt.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+18:57:24 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+18:57:24 INFO  : 'con' command is executed.
+18:57:24 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+18:57:24 INFO  : Launch script is exported to file '/home/trevin/workspace/zbyo_2B_interrupt_system/_ide/scripts/debugger_zbyo_2b_interrupt-default.tcl'
+18:58:15 INFO  : Disconnected from the channel tcfchan#2.
+18:58:16 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:58:16 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7BA00A' is selected.
+18:58:16 INFO  : 'jtag frequency' command is executed.
+18:58:16 INFO  : Context for 'APU' is selected.
+18:58:16 INFO  : System reset is completed.
+18:58:19 INFO  : 'after 3000' command is executed.
+18:58:19 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BA00A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BA00A-23727093-0"}' command is executed.
+18:58:22 INFO  : Device configured successfully with "/home/trevin/workspace/led_test/_ide/bitstream/zybo_1B_wrapper_updated.bit"
+18:58:22 INFO  : Context for 'APU' is selected.
+18:58:22 INFO  : Hardware design and registers information is loaded from '/home/trevin/workspace/zybo_1B_wrapper_updated/export/zybo_1B_wrapper_updated/hw/zybo_1B_wrapper_updated.xsa'.
+18:58:22 INFO  : 'configparams force-mem-access 1' command is executed.
+18:58:22 INFO  : Context for 'APU' is selected.
+18:58:22 INFO  : Sourcing of '/home/trevin/workspace/led_test/_ide/psinit/ps7_init.tcl' is done.
+18:58:22 INFO  : 'ps7_init' command is executed.
+18:58:22 INFO  : 'ps7_post_config' command is executed.
+18:58:22 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+18:58:22 INFO  : The application '/home/trevin/workspace/led_test/Debug/led_test.elf' is downloaded to processor 'ps7_cortexa9_0'.
+18:58:22 INFO  : 'configparams force-mem-access 0' command is executed.
+18:58:22 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BA00A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BA00A-23727093-0"}
+fpga -file /home/trevin/workspace/led_test/_ide/bitstream/zybo_1B_wrapper_updated.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/trevin/workspace/zybo_1B_wrapper_updated/export/zybo_1B_wrapper_updated/hw/zybo_1B_wrapper_updated.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/trevin/workspace/led_test/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/trevin/workspace/led_test/Debug/led_test.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+18:58:22 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+18:58:22 INFO  : 'con' command is executed.
+18:58:22 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+18:58:22 INFO  : Launch script is exported to file '/home/trevin/workspace/led_test_system/_ide/scripts/systemdebugger_led_test_system_standalone.tcl'
+19:00:11 WARN  : An unexpected exception occurred in the module 'platform project logging'
+19:01:30 INFO  : Result from executing command 'getProjects': zybo_1B_wrapper_updated;zybo_2B_interrupt_pf
+19:01:30 INFO  : Result from executing command 'getPlatforms': interput_wrapper|/home/trevin/workspace/interput_wrapper/export/interput_wrapper/interput_wrapper.xpfm;zybo_1B_wrapper_updated|/home/trevin/workspace/zybo_1B_wrapper_updated/export/zybo_1B_wrapper_updated/zybo_1B_wrapper_updated.xpfm;zybo_1B_wrapper|/home/trevin/workspace/zybo_1B_wrapper/export/zybo_1B_wrapper/zybo_1B_wrapper.xpfm
+19:01:30 WARN  : An unexpected exception occurred in the module 'platform project logging'
+19:01:30 INFO  : Platform 'zybo_2B_interrupt_pf' is added to custom repositories.
+19:01:35 INFO  : Platform 'zybo_2B_interrupt_pf' is added to custom repositories.
+19:01:56 INFO  : Result from executing command 'getProjects': zybo_1B_wrapper_updated;zybo_2B_interrupt_pf
+19:01:56 INFO  : Result from executing command 'getPlatforms': interput_wrapper|/home/trevin/workspace/interput_wrapper/export/interput_wrapper/interput_wrapper.xpfm;zybo_1B_wrapper_updated|/home/trevin/workspace/zybo_1B_wrapper_updated/export/zybo_1B_wrapper_updated/zybo_1B_wrapper_updated.xpfm;zybo_1B_wrapper|/home/trevin/workspace/zybo_1B_wrapper/export/zybo_1B_wrapper/zybo_1B_wrapper.xpfm;zybo_2B_interrupt_pf|/home/trevin/workspace/zybo_2B_interrupt_pf/export/zybo_2B_interrupt_pf/zybo_2B_interrupt_pf.xpfm
+19:01:59 INFO  : Checking for BSP changes to sync application flags for project 'zybo_2B_interrupt'...
+19:06:28 INFO  : Checking for BSP changes to sync application flags for project 'zybo_2B_interrupt'...
+19:06:51 INFO  : Disconnected from the channel tcfchan#3.
+19:06:52 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BA00A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BA00A-23727093-0"}' command is executed.
+19:06:52 INFO  : 'fpga -state' command is executed.
+19:06:52 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:06:52 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7BA00A' is selected.
+19:06:52 INFO  : 'jtag frequency' command is executed.
+19:06:52 INFO  : Context for 'APU' is selected.
+19:06:52 INFO  : System reset is completed.
+19:06:55 INFO  : 'after 3000' command is executed.
+19:06:55 INFO  : Context for 'APU' is selected.
+19:06:55 INFO  : Hardware design and registers information is loaded from '/home/trevin/workspace/zybo_2B_interrupt_pf/export/zybo_2B_interrupt_pf/hw/zybo_2B_interrupt_pf.xsa'.
+19:06:55 INFO  : 'configparams force-mem-access 1' command is executed.
+19:06:55 INFO  : Context for 'APU' is selected.
+19:06:55 INFO  : Sourcing of '/home/trevin/workspace/zybo_2B_interrupt/_ide/psinit/ps7_init.tcl' is done.
+19:06:55 INFO  : 'ps7_init' command is executed.
+19:06:55 INFO  : 'ps7_post_config' command is executed.
+19:06:55 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:06:55 INFO  : The application '/home/trevin/workspace/zybo_2B_interrupt/Debug/zybo_2B_interrupt.elf' is downloaded to processor 'ps7_cortexa9_0'.
+19:06:55 INFO  : 'configparams force-mem-access 0' command is executed.
+19:06:55 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/trevin/workspace/zybo_2B_interrupt_pf/export/zybo_2B_interrupt_pf/hw/zybo_2B_interrupt_pf.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/trevin/workspace/zybo_2B_interrupt/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/trevin/workspace/zybo_2B_interrupt/Debug/zybo_2B_interrupt.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+19:06:55 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:06:55 INFO  : 'con' command is executed.
+19:06:55 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+19:06:55 INFO  : Launch script is exported to file '/home/trevin/workspace/zybo_2B_interrupt_system/_ide/scripts/systemdebugger_zybo_2b_interrupt_system_standalone.tcl'
+19:10:16 ERROR : (XSDB Server)invalid command name "hello"
+
+19:10:34 ERROR : (XSDB Server)wrong # args: should be "device subcommand ?argument ...?"
+
+19:10:50 ERROR : (XSDB Server)unknown or ambiguous subcommand "help": must be program, secdebug, or status
+
+19:11:03 ERROR : (XSDB Server)No supported device found
+
+19:11:34 INFO  : Disconnected from the channel tcfchan#6.
+19:11:34 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BA00A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BA00A-23727093-0"}' command is executed.
+19:11:34 INFO  : 'fpga -state' command is executed.
+19:11:38 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:11:38 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7BA00A' is selected.
+19:11:38 INFO  : 'jtag frequency' command is executed.
+19:11:38 INFO  : Context for 'APU' is selected.
+19:11:38 INFO  : System reset is completed.
+19:11:41 INFO  : 'after 3000' command is executed.
+19:11:41 INFO  : Context for 'APU' is selected.
+19:11:41 INFO  : Hardware design and registers information is loaded from '/home/trevin/workspace/zybo_2B_interrupt_pf/export/zybo_2B_interrupt_pf/hw/zybo_2B_interrupt_pf.xsa'.
+19:11:41 INFO  : 'configparams force-mem-access 1' command is executed.
+19:11:41 INFO  : Context for 'APU' is selected.
+19:11:41 INFO  : Sourcing of '/home/trevin/workspace/zybo_2B_interrupt/_ide/psinit/ps7_init.tcl' is done.
+19:11:41 INFO  : 'ps7_init' command is executed.
+19:11:41 INFO  : 'ps7_post_config' command is executed.
+19:11:41 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:11:42 INFO  : The application '/home/trevin/workspace/zybo_2B_interrupt/Debug/zybo_2B_interrupt.elf' is downloaded to processor 'ps7_cortexa9_0'.
+19:11:42 INFO  : 'configparams force-mem-access 0' command is executed.
+19:11:42 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/trevin/workspace/zybo_2B_interrupt_pf/export/zybo_2B_interrupt_pf/hw/zybo_2B_interrupt_pf.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/trevin/workspace/zybo_2B_interrupt/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/trevin/workspace/zybo_2B_interrupt/Debug/zybo_2B_interrupt.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+19:11:42 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:11:42 INFO  : 'con' command is executed.
+19:11:42 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+19:11:42 INFO  : Launch script is exported to file '/home/trevin/workspace/zybo_2B_interrupt_system/_ide/scripts/systemdebugger_zybo_2b_interrupt_system_standalone.tcl'
+19:12:46 INFO  : Disconnected from the channel tcfchan#7.
+19:12:53 INFO  : Launching XSCT server: xsct -n  -interactive /home/trevin/workspace/temp_xsdb_launch_script.tcl
+19:12:55 INFO  : XSCT server has started successfully.
+19:12:55 INFO  : Successfully done setting XSCT server connection channel  
+19:12:55 INFO  : plnx-install-location is set to ''
+19:12:55 INFO  : Successfully done setting workspace for the tool. 
+19:12:55 INFO  : Platform repository initialization has completed.
+19:12:55 INFO  : Successfully done query RDI_DATADIR 
+19:12:56 INFO  : Registering command handlers for Vitis TCF services
+19:15:02 INFO  : Checking for BSP changes to sync application flags for project 'zybo_2B_interrupt'...
+19:15:08 ERROR : (XSDB Server)ERROR: [Hsi 55-1571] The design file /home/trevin/workspace/zybo_2B_interrupt_pf/export/zybo_2B_interrupt_pf/hw/zybo_2B_interrupt_pf.xsa is already opened
+
+19:15:18 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BA00A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BA00A-23727093-0"}' command is executed.
+19:15:18 INFO  : 'fpga -state' command is executed.
+19:15:22 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:15:23 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7BA00A' is selected.
+19:15:23 INFO  : 'jtag frequency' command is executed.
+19:15:23 INFO  : Context for 'APU' is selected.
+19:15:23 INFO  : System reset is completed.
+19:15:26 INFO  : 'after 3000' command is executed.
+19:15:26 INFO  : Context for 'APU' is selected.
+19:15:26 INFO  : Hardware design and registers information is loaded from '/home/trevin/workspace/zybo_2B_interrupt_pf/export/zybo_2B_interrupt_pf/hw/zybo_2B_interrupt_pf.xsa'.
+19:15:26 INFO  : 'configparams force-mem-access 1' command is executed.
+19:15:26 INFO  : Context for 'APU' is selected.
+19:15:26 INFO  : Sourcing of '/home/trevin/workspace/zybo_2B_interrupt/_ide/psinit/ps7_init.tcl' is done.
+19:15:26 INFO  : 'ps7_init' command is executed.
+19:15:26 INFO  : 'ps7_post_config' command is executed.
+19:15:26 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:15:26 INFO  : The application '/home/trevin/workspace/zybo_2B_interrupt/Debug/zybo_2B_interrupt.elf' is downloaded to processor 'ps7_cortexa9_0'.
+19:15:26 INFO  : 'configparams force-mem-access 0' command is executed.
+19:15:26 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/trevin/workspace/zybo_2B_interrupt_pf/export/zybo_2B_interrupt_pf/hw/zybo_2B_interrupt_pf.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/trevin/workspace/zybo_2B_interrupt/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/trevin/workspace/zybo_2B_interrupt/Debug/zybo_2B_interrupt.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+19:15:26 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:15:26 INFO  : 'con' command is executed.
+19:15:26 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+19:15:26 INFO  : Launch script is exported to file '/home/trevin/workspace/zybo_2B_interrupt_system/_ide/scripts/debugger_zybo_2b_interrupt-default.tcl'
+19:15:52 ERROR : (XSDB Server)wrong # args: should be "device subcommand ?argument ...?"
+
+19:16:03 ERROR : (XSDB Server)unknown or ambiguous subcommand "info": must be program, secdebug, or status
+
+19:16:13 ERROR : (XSDB Server)No supported device found
+
+19:16:26 ERROR : (XSDB Server)no pdi file specified
+
+19:17:36 INFO  : Checking for BSP changes to sync application flags for project 'zybo_2B_interrupt'...
+19:17:45 INFO  : Disconnected from the channel tcfchan#2.
+19:17:46 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BA00A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BA00A-23727093-0"}' command is executed.
+19:17:46 INFO  : 'fpga -state' command is executed.
+19:17:52 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:17:52 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7BA00A' is selected.
+19:17:52 INFO  : 'jtag frequency' command is executed.
+19:17:52 INFO  : Context for 'APU' is selected.
+19:17:52 INFO  : System reset is completed.
+19:17:55 INFO  : 'after 3000' command is executed.
+19:17:55 INFO  : Context for 'APU' is selected.
+19:17:56 INFO  : Hardware design and registers information is loaded from '/home/trevin/workspace/zybo_2B_interrupt_pf/export/zybo_2B_interrupt_pf/hw/zybo_2B_interrupt_pf.xsa'.
+19:17:56 INFO  : 'configparams force-mem-access 1' command is executed.
+19:17:56 INFO  : Context for 'APU' is selected.
+19:17:56 INFO  : Sourcing of '/home/trevin/workspace/zybo_2B_interrupt/_ide/psinit/ps7_init.tcl' is done.
+19:17:56 INFO  : 'ps7_init' command is executed.
+19:17:56 INFO  : 'ps7_post_config' command is executed.
+19:17:56 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:17:56 INFO  : The application '/home/trevin/workspace/zybo_2B_interrupt/Release/zybo_2B_interrupt.elf' is downloaded to processor 'ps7_cortexa9_0'.
+19:17:56 INFO  : 'configparams force-mem-access 0' command is executed.
+19:17:56 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/trevin/workspace/zybo_2B_interrupt_pf/export/zybo_2B_interrupt_pf/hw/zybo_2B_interrupt_pf.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/trevin/workspace/zybo_2B_interrupt/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/trevin/workspace/zybo_2B_interrupt/Release/zybo_2B_interrupt.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+19:17:56 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:17:56 INFO  : 'con' command is executed.
+19:17:56 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+19:17:56 INFO  : Launch script is exported to file '/home/trevin/workspace/zybo_2B_interrupt_system/_ide/scripts/debugger_zybo_2b_interrupt-default_1.tcl'
+19:18:45 INFO  : Disconnected from the channel tcfchan#3.
+19:18:46 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BA00A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BA00A-23727093-0"}' command is executed.
+19:18:46 INFO  : 'fpga -state' command is executed.
+19:30:24 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BA00A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BA00A-23727093-0"}' command is executed.
+19:30:24 INFO  : 'fpga -state' command is executed.
+19:30:24 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:30:24 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7BA00A' is selected.
+19:30:24 INFO  : 'jtag frequency' command is executed.
+19:30:24 INFO  : Context for 'APU' is selected.
+19:30:24 INFO  : System reset is completed.
+19:30:27 INFO  : 'after 3000' command is executed.
+19:30:27 INFO  : Context for 'APU' is selected.
+19:30:28 INFO  : Hardware design and registers information is loaded from '/home/trevin/workspace/zybo_2B_interrupt_pf/export/zybo_2B_interrupt_pf/hw/zybo_2B_interrupt_pf.xsa'.
+19:30:28 INFO  : 'configparams force-mem-access 1' command is executed.
+19:30:28 INFO  : Context for 'APU' is selected.
+19:30:28 INFO  : Sourcing of '/home/trevin/workspace/zybo_2B_interrupt/_ide/psinit/ps7_init.tcl' is done.
+19:30:28 INFO  : 'ps7_init' command is executed.
+19:30:28 INFO  : 'ps7_post_config' command is executed.
+19:30:28 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:30:29 INFO  : The application '/home/trevin/workspace/zybo_2B_interrupt/Release/zybo_2B_interrupt.elf' is downloaded to processor 'ps7_cortexa9_0'.
+19:30:29 INFO  : 'configparams force-mem-access 0' command is executed.
+19:30:29 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/trevin/workspace/zybo_2B_interrupt_pf/export/zybo_2B_interrupt_pf/hw/zybo_2B_interrupt_pf.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/trevin/workspace/zybo_2B_interrupt/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/trevin/workspace/zybo_2B_interrupt/Release/zybo_2B_interrupt.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+19:30:29 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:30:29 INFO  : 'con' command is executed.
+19:30:29 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+19:30:29 INFO  : Launch script is exported to file '/home/trevin/workspace/zybo_2B_interrupt_system/_ide/scripts/debugger_zybo_2b_interrupt-default_3.tcl'
+19:32:29 INFO  : Checking for BSP changes to sync application flags for project 'led_test'...
+19:32:32 ERROR : (XSDB Server)ERROR: [Hsi 55-1571] The design file /home/trevin/workspace/zybo_1B_wrapper_updated/export/zybo_1B_wrapper_updated/hw/zybo_1B_wrapper_updated.xsa is already opened
+
+19:33:32 INFO  : Result from executing command 'getProjects': zybo_1B_wrapper_updated;zybo_2B_interrupt_pf
+19:33:32 INFO  : Result from executing command 'getPlatforms': interput_wrapper|/home/trevin/workspace/interput_wrapper/export/interput_wrapper/interput_wrapper.xpfm;zybo_1B_wrapper_updated|/home/trevin/workspace/zybo_1B_wrapper_updated/export/zybo_1B_wrapper_updated/zybo_1B_wrapper_updated.xpfm;zybo_1B_wrapper|/home/trevin/workspace/zybo_1B_wrapper/export/zybo_1B_wrapper/zybo_1B_wrapper.xpfm;zybo_2B_interrupt_pf|/home/trevin/workspace/zybo_2B_interrupt_pf/export/zybo_2B_interrupt_pf/zybo_2B_interrupt_pf.xpfm
+19:33:32 WARN  : An unexpected exception occurred in the module 'platform project logging'
+19:33:32 INFO  : Platform 'zybo_2B_interrupt_pf' is added to custom repositories.
+19:33:38 INFO  : Platform 'zybo_2B_interrupt_pf' is added to custom repositories.
+19:34:55 INFO  : Result from executing command 'getProjects': zybo_1B_wrapper_updated;zybo_2B_interrupt_pf
+19:34:55 INFO  : Result from executing command 'getPlatforms': interput_wrapper|/home/trevin/workspace/interput_wrapper/export/interput_wrapper/interput_wrapper.xpfm;zybo_1B_wrapper_updated|/home/trevin/workspace/zybo_1B_wrapper_updated/export/zybo_1B_wrapper_updated/zybo_1B_wrapper_updated.xpfm;zybo_1B_wrapper|/home/trevin/workspace/zybo_1B_wrapper/export/zybo_1B_wrapper/zybo_1B_wrapper.xpfm;zybo_2B_interrupt_pf|/home/trevin/workspace/zybo_2B_interrupt_pf/export/zybo_2B_interrupt_pf/zybo_2B_interrupt_pf.xpfm
+19:34:58 INFO  : Checking for BSP changes to sync application flags for project 'zybo_2B_interrupt'...
+19:35:08 ERROR : (XSDB Server)No supported device found
+
+19:35:18 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BA00A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BA00A-23727093-0"}' command is executed.
+19:35:18 INFO  : 'fpga -state' command is executed.
+19:35:21 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:35:21 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7BA00A' is selected.
+19:35:21 INFO  : 'jtag frequency' command is executed.
+19:35:21 INFO  : Context for 'APU' is selected.
+19:35:21 INFO  : System reset is completed.
+19:35:24 INFO  : 'after 3000' command is executed.
+19:35:24 INFO  : Context for 'APU' is selected.
+19:35:24 INFO  : Hardware design and registers information is loaded from '/home/trevin/workspace/zybo_2B_interrupt_pf/export/zybo_2B_interrupt_pf/hw/zybo_2B_interrupt_pf.xsa'.
+19:35:24 INFO  : 'configparams force-mem-access 1' command is executed.
+19:35:24 INFO  : Context for 'APU' is selected.
+19:35:24 INFO  : Sourcing of '/home/trevin/workspace/zybo_2B_interrupt/_ide/psinit/ps7_init.tcl' is done.
+19:35:24 INFO  : 'ps7_init' command is executed.
+19:35:24 INFO  : 'ps7_post_config' command is executed.
+19:35:24 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:35:24 INFO  : The application '/home/trevin/workspace/zybo_2B_interrupt/Debug/zybo_2B_interrupt.elf' is downloaded to processor 'ps7_cortexa9_0'.
+19:35:24 INFO  : 'configparams force-mem-access 0' command is executed.
+19:35:24 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/trevin/workspace/zybo_2B_interrupt_pf/export/zybo_2B_interrupt_pf/hw/zybo_2B_interrupt_pf.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/trevin/workspace/zybo_2B_interrupt/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/trevin/workspace/zybo_2B_interrupt/Debug/zybo_2B_interrupt.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+19:35:24 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:35:24 INFO  : 'con' command is executed.
+19:35:24 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+19:35:24 INFO  : Launch script is exported to file '/home/trevin/workspace/zybo_2B_interrupt_system/_ide/scripts/debugger_zybo_2b_interrupt-default.tcl'
+19:35:56 INFO  : Disconnected from the channel tcfchan#4.
+19:35:57 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BA00A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BA00A-23727093-0"}' command is executed.
+19:35:57 INFO  : 'fpga -state' command is executed.
+19:35:57 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:35:57 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7BA00A' is selected.
+19:35:57 INFO  : 'jtag frequency' command is executed.
+19:35:57 INFO  : Context for 'APU' is selected.
+19:35:57 INFO  : System reset is completed.
+19:36:00 INFO  : 'after 3000' command is executed.
+19:36:00 INFO  : Context for 'APU' is selected.
+19:36:00 INFO  : Hardware design and registers information is loaded from '/home/trevin/workspace/zybo_2B_interrupt_pf/export/zybo_2B_interrupt_pf/hw/zybo_2B_interrupt_pf.xsa'.
+19:36:00 INFO  : 'configparams force-mem-access 1' command is executed.
+19:36:00 INFO  : Context for 'APU' is selected.
+19:36:00 INFO  : Sourcing of '/home/trevin/workspace/zybo_2B_interrupt/_ide/psinit/ps7_init.tcl' is done.
+19:36:00 INFO  : 'ps7_init' command is executed.
+19:36:00 INFO  : 'ps7_post_config' command is executed.
+19:36:00 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:36:00 INFO  : The application '/home/trevin/workspace/zybo_2B_interrupt/Debug/zybo_2B_interrupt.elf' is downloaded to processor 'ps7_cortexa9_0'.
+19:36:00 INFO  : 'configparams force-mem-access 0' command is executed.
+19:36:00 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/trevin/workspace/zybo_2B_interrupt_pf/export/zybo_2B_interrupt_pf/hw/zybo_2B_interrupt_pf.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/trevin/workspace/zybo_2B_interrupt/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/trevin/workspace/zybo_2B_interrupt/Debug/zybo_2B_interrupt.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+19:36:00 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:36:00 INFO  : 'con' command is executed.
+19:36:00 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+19:36:00 INFO  : Launch script is exported to file '/home/trevin/workspace/zybo_2B_interrupt_system/_ide/scripts/debugger_zybo_2b_interrupt-default.tcl'
+19:36:19 INFO  : Disconnected from the channel tcfchan#7.
+19:36:20 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:36:20 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7BA00A' is selected.
+19:36:20 INFO  : 'jtag frequency' command is executed.
+19:36:20 INFO  : Context for 'APU' is selected.
+19:36:20 INFO  : System reset is completed.
+19:36:24 INFO  : 'after 3000' command is executed.
+19:36:24 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BA00A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BA00A-23727093-0"}' command is executed.
+19:36:26 INFO  : Device configured successfully with "/home/trevin/workspace/led_test/_ide/bitstream/zybo_1B_wrapper_updated.bit"
+19:36:26 INFO  : Context for 'APU' is selected.
+19:36:26 INFO  : Hardware design and registers information is loaded from '/home/trevin/workspace/zybo_1B_wrapper_updated/export/zybo_1B_wrapper_updated/hw/zybo_1B_wrapper_updated.xsa'.
+19:36:26 INFO  : 'configparams force-mem-access 1' command is executed.
+19:36:26 INFO  : Context for 'APU' is selected.
+19:36:26 INFO  : Sourcing of '/home/trevin/workspace/led_test/_ide/psinit/ps7_init.tcl' is done.
+19:36:26 INFO  : 'ps7_init' command is executed.
+19:36:26 INFO  : 'ps7_post_config' command is executed.
+19:36:26 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:36:26 INFO  : The application '/home/trevin/workspace/led_test/Debug/led_test.elf' is downloaded to processor 'ps7_cortexa9_0'.
+19:36:26 INFO  : 'configparams force-mem-access 0' command is executed.
+19:36:26 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BA00A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BA00A-23727093-0"}
+fpga -file /home/trevin/workspace/led_test/_ide/bitstream/zybo_1B_wrapper_updated.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/trevin/workspace/zybo_1B_wrapper_updated/export/zybo_1B_wrapper_updated/hw/zybo_1B_wrapper_updated.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/trevin/workspace/led_test/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/trevin/workspace/led_test/Debug/led_test.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+19:36:26 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:36:26 INFO  : 'con' command is executed.
+19:36:26 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+19:36:26 INFO  : Launch script is exported to file '/home/trevin/workspace/led_test_system/_ide/scripts/systemdebugger_led_test_system_standalone.tcl'
+19:36:39 INFO  : Disconnected from the channel tcfchan#8.
+19:36:40 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BA00A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BA00A-23727093-0"}' command is executed.
+19:36:40 INFO  : 'fpga -state' command is executed.
+19:36:40 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:36:40 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7BA00A' is selected.
+19:36:40 INFO  : 'jtag frequency' command is executed.
+19:36:40 INFO  : Context for 'APU' is selected.
+19:36:40 INFO  : System reset is completed.
+19:36:43 INFO  : 'after 3000' command is executed.
+19:36:43 INFO  : Context for 'APU' is selected.
+19:36:43 INFO  : Hardware design and registers information is loaded from '/home/trevin/workspace/zybo_2B_interrupt_pf/export/zybo_2B_interrupt_pf/hw/zybo_2B_interrupt_pf.xsa'.
+19:36:43 INFO  : 'configparams force-mem-access 1' command is executed.
+19:36:43 INFO  : Context for 'APU' is selected.
+19:36:43 INFO  : Sourcing of '/home/trevin/workspace/zybo_2B_interrupt/_ide/psinit/ps7_init.tcl' is done.
+19:36:43 INFO  : 'ps7_init' command is executed.
+19:36:43 INFO  : 'ps7_post_config' command is executed.
+19:36:43 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:36:44 INFO  : The application '/home/trevin/workspace/zybo_2B_interrupt/Debug/zybo_2B_interrupt.elf' is downloaded to processor 'ps7_cortexa9_0'.
+19:36:44 INFO  : 'configparams force-mem-access 0' command is executed.
+19:36:44 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/trevin/workspace/zybo_2B_interrupt_pf/export/zybo_2B_interrupt_pf/hw/zybo_2B_interrupt_pf.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/trevin/workspace/zybo_2B_interrupt/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/trevin/workspace/zybo_2B_interrupt/Debug/zybo_2B_interrupt.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+19:36:44 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:36:44 INFO  : 'con' command is executed.
+19:36:44 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+19:36:44 INFO  : Launch script is exported to file '/home/trevin/workspace/zybo_2B_interrupt_system/_ide/scripts/debugger_zybo_2b_interrupt-default.tcl'
+19:37:11 INFO  : Checking for BSP changes to sync application flags for project 'led_test'...
+19:37:26 INFO  : Checking for BSP changes to sync application flags for project 'led_test'...
+19:41:12 INFO  : Generated template bif file for zybo_2B_interrupt_system
+19:41:25 INFO  : Invoking Bootgen: bootgen -image zybo_2B_interrupt_system.bif -arch zynq -o /home/trevin/workspace/zybo_2B_interrupt_system/_ide/bootimage/BOOT.bin
+19:41:27 INFO  : Bootgen command execution is done.
+19:48:20 INFO  : Result from executing command 'getProjects': zybo_1B_wrapper_updated;zybo_2B_interrupt_pf
+19:48:20 INFO  : Result from executing command 'getPlatforms': interput_wrapper|/home/trevin/workspace/interput_wrapper/export/interput_wrapper/interput_wrapper.xpfm;zybo_1B_wrapper_updated|/home/trevin/workspace/zybo_1B_wrapper_updated/export/zybo_1B_wrapper_updated/zybo_1B_wrapper_updated.xpfm;zybo_1B_wrapper|/home/trevin/workspace/zybo_1B_wrapper/export/zybo_1B_wrapper/zybo_1B_wrapper.xpfm
+19:48:20 INFO  : Platform 'zybo_2B_interrupt_pf' is added to custom repositories.
+19:48:26 INFO  : Platform 'zybo_2B_interrupt_pf' is added to custom repositories.
+19:49:41 INFO  : Result from executing command 'getProjects': zybo_1B_wrapper_updated;zybo_2B_interrupt_pf
+19:49:41 INFO  : Result from executing command 'getPlatforms': interput_wrapper|/home/trevin/workspace/interput_wrapper/export/interput_wrapper/interput_wrapper.xpfm;zybo_1B_wrapper_updated|/home/trevin/workspace/zybo_1B_wrapper_updated/export/zybo_1B_wrapper_updated/zybo_1B_wrapper_updated.xpfm;zybo_1B_wrapper|/home/trevin/workspace/zybo_1B_wrapper/export/zybo_1B_wrapper/zybo_1B_wrapper.xpfm;zybo_2B_interrupt_pf|/home/trevin/workspace/zybo_2B_interrupt_pf/export/zybo_2B_interrupt_pf/zybo_2B_interrupt_pf.xpfm
+19:49:55 INFO  : Checking for BSP changes to sync application flags for project 'zybo_2B_interrupt'...
+19:50:21 INFO  : Checking for BSP changes to sync application flags for project 'zybo_2B_interrupt'...
+19:50:37 INFO  : Checking for BSP changes to sync application flags for project 'zybo_2B_interrupt'...
+19:51:19 INFO  : Checking for BSP changes to sync application flags for project 'zybo_2B_interrupt'...
+19:52:35 INFO  : Result from executing command 'getProjects': zybo_1B_wrapper_updated;zybo_2B_interrupt_pf
+19:52:35 INFO  : Result from executing command 'getPlatforms': interput_wrapper|/home/trevin/workspace/interput_wrapper/export/interput_wrapper/interput_wrapper.xpfm;zybo_1B_wrapper_updated|/home/trevin/workspace/zybo_1B_wrapper_updated/export/zybo_1B_wrapper_updated/zybo_1B_wrapper_updated.xpfm;zybo_1B_wrapper|/home/trevin/workspace/zybo_1B_wrapper/export/zybo_1B_wrapper/zybo_1B_wrapper.xpfm;zybo_2B_interrupt_pf|/home/trevin/workspace/zybo_2B_interrupt_pf/export/zybo_2B_interrupt_pf/zybo_2B_interrupt_pf.xpfm
+19:52:38 INFO  : Checking for BSP changes to sync application flags for project 'zybo_2B_interrupt'...
+19:52:56 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:52:56 INFO  : Jtag cable 'Digilent Zybo Z7 210351B7BA00A' is selected.
+19:52:56 INFO  : 'jtag frequency' command is executed.
+19:52:56 INFO  : Context for 'APU' is selected.
+19:52:56 INFO  : System reset is completed.
+19:52:59 INFO  : 'after 3000' command is executed.
+19:52:59 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BA00A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BA00A-23727093-0"}' command is executed.
+19:53:01 INFO  : Device configured successfully with "/home/trevin/workspace/zybo_2B_interrupt/_ide/bitstream/zybo_2B_interrupt_pf.bit"
+19:53:01 INFO  : Context for 'APU' is selected.
+19:53:01 INFO  : Hardware design and registers information is loaded from '/home/trevin/workspace/zybo_2B_interrupt_pf/export/zybo_2B_interrupt_pf/hw/zybo_2B_interrupt_pf.xsa'.
+19:53:01 INFO  : 'configparams force-mem-access 1' command is executed.
+19:53:01 INFO  : Context for 'APU' is selected.
+19:53:01 INFO  : Sourcing of '/home/trevin/workspace/zybo_2B_interrupt/_ide/psinit/ps7_init.tcl' is done.
+19:53:02 INFO  : 'ps7_init' command is executed.
+19:53:02 INFO  : 'ps7_post_config' command is executed.
+19:53:02 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:53:02 INFO  : The application '/home/trevin/workspace/zybo_2B_interrupt/Debug/zybo_2B_interrupt.elf' is downloaded to processor 'ps7_cortexa9_0'.
+19:53:02 INFO  : 'configparams force-mem-access 0' command is executed.
+19:53:02 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B7BA00A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351B7BA00A-23727093-0"}
+fpga -file /home/trevin/workspace/zybo_2B_interrupt/_ide/bitstream/zybo_2B_interrupt_pf.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/trevin/workspace/zybo_2B_interrupt_pf/export/zybo_2B_interrupt_pf/hw/zybo_2B_interrupt_pf.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/trevin/workspace/zybo_2B_interrupt/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/trevin/workspace/zybo_2B_interrupt/Debug/zybo_2B_interrupt.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+19:53:02 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:53:02 INFO  : 'con' command is executed.
+19:53:02 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+19:53:02 INFO  : Launch script is exported to file '/home/trevin/workspace/zybo_2B_interrupt_system/_ide/scripts/debugger_zybo_2b_interrupt-default.tcl'
+20:13:24 WARN  : channel "tcfchan#4" closed
+20:13:24 INFO  : Disconnected from the channel tcfchan#9.
+20:13:24 WARN  : channel "tcfchan#9" closed
+20:14:20 INFO  : Launching XSCT server: xsct -n  -interactive /home/trevin/workspace/temp_xsdb_launch_script.tcl
+20:14:22 INFO  : XSCT server has started successfully.
+20:14:22 INFO  : Successfully done setting XSCT server connection channel  
+20:14:22 INFO  : plnx-install-location is set to ''
+20:14:22 INFO  : Successfully done setting workspace for the tool. 
+20:14:23 INFO  : Platform repository initialization has completed.
+20:14:24 INFO  : Registering command handlers for Vitis TCF services
+20:14:24 INFO  : Successfully done query RDI_DATADIR 

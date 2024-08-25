@@ -1,0 +1,7 @@
+/*zybo_1B_wrapper_updated*/
+the_ROM_image:
+{
+  [bootloader]<zybo_1B_wrapper_updated/boot/fsbl.elf>
+   <bitstream> 
+  <elf,ps7_cortexa9_0>
+}

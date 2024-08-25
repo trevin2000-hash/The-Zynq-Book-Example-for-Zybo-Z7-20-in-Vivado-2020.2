@@ -1,0 +1,7 @@
+23:28:55 **** Clean-only build of configuration Debug for project LED_test ****
+make clean 
+rm -rf ./src/LED_test_tut_1C.o ./src/LED_test_tut_1C.d LED_test.elf.size  LED_test.elf
+ 
+
+23:28:55 Build Finished (took 169ms)
+

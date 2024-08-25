@@ -1,0 +1,122 @@
+timestamp=[2024-08-22 21:36:22], mode=WORKBENCH_START, duration=0:00:04.560, duration_ms=4560, data={}
+timestamp=[2024-08-22 21:36:22], mode=WORKBENCH_UI_INIT, duration=0:00:00.301, duration_ms=301, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2024-08-22 21:36:25], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:02.705, duration_ms=2705, data={}
+timestamp=[2024-08-22 22:04:54], mode=WORKBENCH_START, duration=0:00:04.541, duration_ms=4541, data={}
+timestamp=[2024-08-22 22:04:55], mode=WORKBENCH_UI_INIT, duration=0:00:00.413, duration_ms=413, data={editors_count=0, platform_editors_count=0, projects_count=1, platform_projects_count=0, active_platform_editor=false, projects=RemoteSystemsTempFiles}
+timestamp=[2024-08-22 22:04:57], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:02.277, duration_ms=2277, data={}
+timestamp=[2024-08-22 22:10:47], mode=APP_CREATION, duration=0:00:08.225, duration_ms=8225, data={name=LED_test, project_type=sdk, os=standalone, processor=ps7_cortexa9, runtime=cpp, platform=zybo_1B_wrapper, application_type=application}
+timestamp=[2024-08-22 22:17:57], mode=PLATFORM_GENERATION, duration=0:00:08.194, duration_ms=8194, data={name=zybo_1B_wrapper}
+timestamp=[2024-08-22 22:17:58], mode=BUILD, duration=0:00:00.284, duration_ms=284, data={name=LED_test, configuration=Debug, clean_build=false}
+timestamp=[2024-08-22 22:20:31], mode=BUILD, duration=0:00:00.178, duration_ms=178, data={name=LED_test, configuration=Debug, clean_build=false}
+timestamp=[2024-08-22 22:21:33], mode=PLATFORM_GENERATION, duration=0:00:05.167, duration_ms=5167, data={name=zybo_1B_wrapper}
+timestamp=[2024-08-22 22:21:33], mode=BUILD, duration=0:00:00.277, duration_ms=277, data={name=LED_test, configuration=Debug, clean_build=false}
+timestamp=[2024-08-22 22:29:24], mode=BUILD, duration=0:00:00.179, duration_ms=179, data={name=LED_test, configuration=Debug, clean_build=false}
+timestamp=[2024-08-22 22:29:52], mode=PLATFORM_GENERATION, duration=0:00:05.197, duration_ms=5197, data={name=zybo_1B_wrapper}
+timestamp=[2024-08-22 22:29:52], mode=BUILD, duration=0:00:00.175, duration_ms=175, data={name=LED_test, configuration=Debug, clean_build=true}
+timestamp=[2024-08-22 22:33:11], mode=PLATFORM_GENERATION, duration=0:00:08.023, duration_ms=8023, data={name=zybo_1B_wrapper}
+timestamp=[2024-08-22 22:33:12], mode=BUILD, duration=0:00:00.277, duration_ms=277, data={name=LED_test, configuration=Debug, clean_build=false}
+timestamp=[2024-08-22 22:56:12], mode=WORKBENCH_START, duration=0:00:07.379, duration_ms=7379, data={}
+timestamp=[2024-08-22 22:56:12], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.020, duration_ms=20, data={}
+timestamp=[2024-08-22 22:56:13], mode=WORKBENCH_UI_INIT, duration=0:00:00.895, duration_ms=895, data={editors_count=4, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=true, projects=LED_test,LED_test_system,RemoteSystemsTempFiles,zybo_1B_wrapper}
+timestamp=[2024-08-22 22:57:48], mode=WORKBENCH_START, duration=0:00:06.726, duration_ms=6726, data={}
+timestamp=[2024-08-22 22:57:48], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.072, duration_ms=72, data={}
+timestamp=[2024-08-22 22:57:49], mode=WORKBENCH_UI_INIT, duration=0:00:00.887, duration_ms=887, data={editors_count=4, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=true, projects=LED_test,LED_test_system,RemoteSystemsTempFiles,zybo_1B_wrapper}
+timestamp=[2024-08-22 22:58:32], mode=PLATFORM_GENERATION, duration=0:00:07.811, duration_ms=7811, data={name=zybo_1B_wrapper}
+timestamp=[2024-08-22 22:59:32], mode=BUILD, duration=0:00:00.332, duration_ms=332, data={name=LED_test, configuration=Debug, clean_build=false}
+timestamp=[2024-08-22 22:59:39], mode=BUILD, duration=0:00:06.635, duration_ms=6635, data={name=LED_test_system, configuration=Hardware, clean_build=false}
+timestamp=[2024-08-22 23:05:59], mode=BUILD, duration=0:00:00.171, duration_ms=171, data={name=LED_test, configuration=Debug, clean_build=false}
+timestamp=[2024-08-22 23:22:56], mode=WORKBENCH_START, duration=0:00:07.379, duration_ms=7379, data={}
+timestamp=[2024-08-22 23:22:56], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.019, duration_ms=19, data={}
+timestamp=[2024-08-22 23:22:56], mode=WORKBENCH_UI_INIT, duration=0:00:00.641, duration_ms=641, data={editors_count=4, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=LED_test,LED_test_system,RemoteSystemsTempFiles,zybo_1B_wrapper}
+timestamp=[2024-08-22 23:25:37], mode=BUILD, duration=0:00:00.205, duration_ms=205, data={name=LED_test, configuration=Debug, clean_build=false}
+timestamp=[2024-08-22 23:27:30], mode=PLATFORM_CREATION, duration=0:00:07.726, duration_ms=7726, data={platform_source=dsa, os=standalone, processor=ps7_cortexa9, platform=null}
+timestamp=[2024-08-22 23:28:20], mode=PLATFORM_GENERATION, duration=0:00:09.858, duration_ms=9858, data={name=zybo_1b_plateform}
+timestamp=[2024-08-22 23:28:48], mode=BUILD, duration=0:00:00.174, duration_ms=174, data={name=LED_test, configuration=Debug, clean_build=true}
+timestamp=[2024-08-22 23:28:49], mode=BUILD, duration=0:00:00.175, duration_ms=175, data={name=LED_test_system, configuration=Hardware, clean_build=true}
+timestamp=[2024-08-22 23:28:55], mode=BUILD, duration=0:00:00.176, duration_ms=176, data={name=LED_test, configuration=Debug, clean_build=true}
+timestamp=[2024-08-22 23:32:44], mode=WORKBENCH_START, duration=0:00:04.312, duration_ms=4312, data={}
+timestamp=[2024-08-22 23:32:44], mode=WORKBENCH_UI_INIT, duration=0:00:00.422, duration_ms=422, data={editors_count=0, platform_editors_count=0, projects_count=1, platform_projects_count=0, active_platform_editor=false, projects=RemoteSystemsTempFiles}
+timestamp=[2024-08-22 23:32:46], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:02.172, duration_ms=2172, data={}
+timestamp=[2024-08-22 23:36:35], mode=APP_CREATION, duration=0:00:12.302, duration_ms=12302, data={name=led_test, project_type=sdk, os=standalone, processor=ps7_cortexa9, runtime=cpp, platform=zybo_1B_wrapper_updated, application_type=application}
+timestamp=[2024-08-22 23:38:37], mode=PLATFORM_GENERATION, duration=0:00:10.040, duration_ms=10040, data={name=zybo_1B_wrapper_updated}
+timestamp=[2024-08-22 23:38:38], mode=BUILD, duration=0:00:00.390, duration_ms=390, data={name=led_test, configuration=Debug, clean_build=false}
+timestamp=[2024-08-22 23:51:46], mode=BUILD, duration=0:00:00.328, duration_ms=328, data={name=led_test, configuration=Debug, clean_build=false}
+timestamp=[2024-08-22 23:54:02], mode=BUILD, duration=0:00:00.278, duration_ms=278, data={name=led_test, configuration=Debug, clean_build=false}
+timestamp=[2024-08-22 23:55:45], mode=BUILD, duration=0:00:00.327, duration_ms=327, data={name=led_test, configuration=Debug, clean_build=false}
+timestamp=[2024-08-22 23:56:34], mode=BUILD, duration=0:00:00.279, duration_ms=279, data={name=led_test, configuration=Debug, clean_build=false}
+timestamp=[2024-08-22 23:58:10], mode=BUILD, duration=0:00:00.276, duration_ms=276, data={name=led_test, configuration=Debug, clean_build=false}
+timestamp=[2024-08-23 16:07:04], mode=BUILD, duration=0:00:00.341, duration_ms=341, data={name=led_test, configuration=Debug, clean_build=false}
+timestamp=[2024-08-23 16:20:31], mode=BUILD, duration=0:00:00.277, duration_ms=277, data={name=led_test, configuration=Debug, clean_build=false}
+timestamp=[2024-08-23 16:22:47], mode=BUILD, duration=0:00:00.279, duration_ms=279, data={name=led_test, configuration=Debug, clean_build=false}
+timestamp=[2024-08-23 16:23:01], mode=BUILD, duration=0:00:00.277, duration_ms=277, data={name=led_test, configuration=Debug, clean_build=false}
+timestamp=[2024-08-23 16:24:46], mode=BUILD, duration=0:00:00.276, duration_ms=276, data={name=led_test, configuration=Debug, clean_build=false}
+timestamp=[2024-08-23 16:25:29], mode=BUILD, duration=0:00:00.328, duration_ms=328, data={name=led_test, configuration=Debug, clean_build=false}
+timestamp=[2024-08-23 16:26:17], mode=BUILD, duration=0:00:00.276, duration_ms=276, data={name=led_test, configuration=Debug, clean_build=false}
+timestamp=[2024-08-23 16:29:57], mode=BUILD, duration=0:00:00.228, duration_ms=228, data={name=led_test, configuration=Debug, clean_build=false}
+timestamp=[2024-08-23 16:30:45], mode=BUILD, duration=0:00:00.227, duration_ms=227, data={name=led_test, configuration=Debug, clean_build=false}
+timestamp=[2024-08-23 16:32:34], mode=BUILD, duration=0:00:00.278, duration_ms=278, data={name=led_test, configuration=Debug, clean_build=false}
+timestamp=[2024-08-23 16:33:38], mode=BUILD, duration=0:00:00.277, duration_ms=277, data={name=led_test, configuration=Debug, clean_build=false}
+timestamp=[2024-08-23 21:11:40], mode=WORKBENCH_START, duration=0:00:07.326, duration_ms=7326, data={}
+timestamp=[2024-08-23 21:11:40], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.034, duration_ms=34, data={}
+timestamp=[2024-08-23 21:11:41], mode=WORKBENCH_UI_INIT, duration=0:00:00.755, duration_ms=755, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,led_test,led_test_system,zybo_1B_wrapper_updated}
+timestamp=[2024-08-23 21:13:24], mode=PLATFORM_GENERATION, duration=0:00:08.362, duration_ms=8362, data={name=zybo_1B_wrapper_updated}
+timestamp=[2024-08-23 21:13:25], mode=BUILD, duration=0:00:00.330, duration_ms=330, data={name=led_test, configuration=Debug, clean_build=false}
+timestamp=[2024-08-23 21:13:26], mode=BUILD, duration=0:00:00.169, duration_ms=169, data={name=led_test, configuration=Debug, clean_build=false}
+timestamp=[2024-08-23 21:14:47], mode=APP_CREATION, duration=0:00:09.637, duration_ms=9637, data={name=interrupt, project_type=sdk, os=standalone, processor=ps7_cortexa9, runtime=cpp, platform=interput_wrapper, application_type=application}
+timestamp=[2024-08-24 12:28:39], mode=APP_CREATION, duration=0:00:10.342, duration_ms=10342, data={name=zbyo_2B_interrupt, project_type=sdk, os=standalone, processor=ps7_cortexa9, runtime=cpp, platform=zybo_2b_interput_pf, application_type=application}
+timestamp=[2024-08-24 18:36:28], mode=PLATFORM_GENERATION, duration=0:00:09.896, duration_ms=9896, data={name=zybo_2b_interput_pf}
+timestamp=[2024-08-24 18:36:29], mode=BUILD, duration=0:00:00.274, duration_ms=274, data={name=zbyo_2B_interrupt, configuration=Debug, clean_build=false}
+timestamp=[2024-08-24 18:41:31], mode=BUILD, duration=0:00:00.181, duration_ms=181, data={name=zbyo_2B_interrupt, configuration=Debug, clean_build=false}
+timestamp=[2024-08-24 18:46:20], mode=BUILD, duration=0:00:00.177, duration_ms=177, data={name=zbyo_2B_interrupt, configuration=Debug, clean_build=false}
+timestamp=[2024-08-24 18:46:27], mode=BUILD, duration=0:00:06.486, duration_ms=6486, data={name=zbyo_2B_interrupt_system, configuration=Hardware, clean_build=false}
+timestamp=[2024-08-24 18:46:42], mode=BUILD, duration=0:00:00.174, duration_ms=174, data={name=zbyo_2B_interrupt, configuration=Debug, clean_build=false}
+timestamp=[2024-08-24 18:46:48], mode=BUILD, duration=0:00:06.436, duration_ms=6436, data={name=zbyo_2B_interrupt_system, configuration=Hardware, clean_build=false}
+timestamp=[2024-08-24 18:46:59], mode=BUILD, duration=0:00:00.174, duration_ms=174, data={name=zbyo_2B_interrupt, configuration=Debug, clean_build=false}
+timestamp=[2024-08-24 18:47:06], mode=BUILD, duration=0:00:06.438, duration_ms=6438, data={name=zbyo_2B_interrupt_system, configuration=Hardware, clean_build=false}
+timestamp=[2024-08-24 18:56:16], mode=WORKBENCH_START, duration=0:00:07.303, duration_ms=7303, data={}
+timestamp=[2024-08-24 18:56:16], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.069, duration_ms=69, data={}
+timestamp=[2024-08-24 18:56:17], mode=WORKBENCH_UI_INIT, duration=0:00:00.696, duration_ms=696, data={editors_count=7, platform_editors_count=4, projects_count=7, platform_projects_count=2, active_platform_editor=false, projects=RemoteSystemsTempFiles,led_test,led_test_system,zbyo_2B_interrupt,zbyo_2B_interrupt_system,zybo_1B_wrapper_updated,zybo_2b_interput_pf}
+timestamp=[2024-08-24 18:56:50], mode=BUILD, duration=0:00:00.198, duration_ms=198, data={name=zbyo_2B_interrupt, configuration=Debug, clean_build=false}
+timestamp=[2024-08-24 18:57:05], mode=BUILD, duration=0:00:00.167, duration_ms=167, data={name=led_test, configuration=Debug, clean_build=false}
+timestamp=[2024-08-24 18:57:13], mode=BUILD, duration=0:00:08.185, duration_ms=8185, data={name=led_test_system, configuration=Hardware, clean_build=false}
+timestamp=[2024-08-24 19:01:35], mode=APP_CREATION, duration=0:00:10.237, duration_ms=10237, data={name=zybo_2B_interrupt, project_type=sdk, os=standalone, processor=ps7_cortexa9, runtime=cpp, platform=zybo_2B_interrupt_pf, application_type=application}
+timestamp=[2024-08-24 19:01:59], mode=PLATFORM_GENERATION, duration=0:00:09.882, duration_ms=9882, data={name=zybo_2B_interrupt_pf}
+timestamp=[2024-08-24 19:06:28], mode=BUILD, duration=0:00:00.275, duration_ms=275, data={name=zybo_2B_interrupt, configuration=Debug, clean_build=false}
+timestamp=[2024-08-24 19:06:35], mode=BUILD, duration=0:00:06.380, duration_ms=6380, data={name=zybo_2B_interrupt_system, configuration=Hardware, clean_build=false}
+timestamp=[2024-08-24 19:12:55], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.023, duration_ms=23, data={}
+timestamp=[2024-08-24 19:12:55], mode=WORKBENCH_START, duration=0:00:07.093, duration_ms=7093, data={}
+timestamp=[2024-08-24 19:12:56], mode=WORKBENCH_UI_INIT, duration=0:00:00.703, duration_ms=703, data={editors_count=4, platform_editors_count=0, projects_count=7, platform_projects_count=2, active_platform_editor=false, projects=RemoteSystemsTempFiles,led_test,led_test_system,zybo_1B_wrapper_updated,zybo_2B_interrupt,zybo_2B_interrupt_pf,zybo_2B_interrupt_system}
+timestamp=[2024-08-24 19:15:04], mode=BUILD, duration=0:00:00.214, duration_ms=214, data={name=zybo_2B_interrupt, configuration=Debug, clean_build=false}
+timestamp=[2024-08-24 19:15:12], mode=BUILD, duration=0:00:08.087, duration_ms=8087, data={name=zybo_2B_interrupt_system, configuration=Hardware, clean_build=false}
+timestamp=[2024-08-24 19:17:36], mode=BUILD, duration=0:00:00.271, duration_ms=271, data={name=zybo_2B_interrupt, configuration=Release, clean_build=false}
+timestamp=[2024-08-24 19:32:30], mode=BUILD, duration=0:00:00.172, duration_ms=172, data={name=led_test, configuration=Debug, clean_build=false}
+timestamp=[2024-08-24 19:32:37], mode=BUILD, duration=0:00:06.633, duration_ms=6633, data={name=led_test_system, configuration=Hardware, clean_build=false}
+timestamp=[2024-08-24 19:33:38], mode=APP_CREATION, duration=0:00:10.486, duration_ms=10486, data={name=zybo_2B_interrupt, project_type=sdk, os=standalone, processor=ps7_cortexa9, runtime=cpp, platform=zybo_2B_interrupt_pf, application_type=application}
+timestamp=[2024-08-24 19:34:58], mode=PLATFORM_GENERATION, duration=0:00:09.787, duration_ms=9787, data={name=zybo_2B_interrupt_pf}
+timestamp=[2024-08-24 19:35:00], mode=BUILD, duration=0:00:00.274, duration_ms=274, data={name=zybo_2B_interrupt, configuration=Debug, clean_build=false}
+timestamp=[2024-08-24 19:37:12], mode=BUILD, duration=0:00:00.173, duration_ms=173, data={name=led_test, configuration=Debug, clean_build=false}
+timestamp=[2024-08-24 19:37:13], mode=BUILD, duration=0:00:00.174, duration_ms=174, data={name=led_test_system, configuration=Emulation-HW, clean_build=false}
+timestamp=[2024-08-24 19:37:26], mode=BUILD, duration=0:00:00.174, duration_ms=174, data={name=led_test, configuration=Debug, clean_build=false}
+timestamp=[2024-08-24 19:37:33], mode=BUILD, duration=0:00:06.437, duration_ms=6437, data={name=led_test_system, configuration=Hardware, clean_build=false}
+timestamp=[2024-08-24 19:41:13], mode=MISC, duration=0:00:01.629, duration_ms=1629, data={name=zybo_2B_interrupt_system, type=bif_creation}
+timestamp=[2024-08-24 19:48:26], mode=APP_CREATION, duration=0:00:10.872, duration_ms=10872, data={name=zybo_2B_interrupt, project_type=sdk, os=standalone, processor=ps7_cortexa9, runtime=cpp, platform=zybo_2B_interrupt_pf, application_type=application}
+timestamp=[2024-08-24 19:49:44], mode=PLATFORM_GENERATION, duration=0:00:10.092, duration_ms=10092, data={name=zybo_2B_interrupt_pf}
+timestamp=[2024-08-24 19:49:56], mode=BUILD, duration=0:00:00.278, duration_ms=278, data={name=zybo_2B_interrupt, configuration=Debug, clean_build=false}
+timestamp=[2024-08-24 19:49:57], mode=BUILD, duration=0:00:00.175, duration_ms=175, data={name=zybo_2B_interrupt_system, configuration=Emulation-SW, clean_build=false}
+timestamp=[2024-08-24 19:50:21], mode=BUILD, duration=0:00:00.183, duration_ms=183, data={name=zybo_2B_interrupt, configuration=Debug, clean_build=false}
+timestamp=[2024-08-24 19:50:37], mode=BUILD, duration=0:00:00.175, duration_ms=175, data={name=zybo_2B_interrupt, configuration=Debug, clean_build=false}
+timestamp=[2024-08-24 19:50:44], mode=BUILD, duration=0:00:06.536, duration_ms=6536, data={name=zybo_2B_interrupt_system, configuration=Hardware, clean_build=false}
+timestamp=[2024-08-24 19:50:50], mode=BUILD, duration=0:00:00.176, duration_ms=176, data={name=zybo_2B_interrupt_system, configuration=Hardware, clean_build=true}
+timestamp=[2024-08-24 19:51:19], mode=BUILD, duration=0:00:00.174, duration_ms=174, data={name=zybo_2B_interrupt, configuration=Debug, clean_build=false}
+timestamp=[2024-08-24 19:51:26], mode=BUILD, duration=0:00:06.536, duration_ms=6536, data={name=zybo_2B_interrupt_system, configuration=Hardware, clean_build=false}
+timestamp=[2024-08-24 19:52:03], mode=PLATFORM_GENERATION, duration=0:00:05.295, duration_ms=5295, data={name=zybo_2B_interrupt_pf}
+timestamp=[2024-08-24 19:52:04], mode=BUILD, duration=0:00:00.177, duration_ms=177, data={name=zybo_2B_interrupt, configuration=Debug, clean_build=true}
+timestamp=[2024-08-24 19:52:04], mode=BUILD, duration=0:00:00.176, duration_ms=176, data={name=zybo_2B_interrupt_system, configuration=Hardware, clean_build=true}
+timestamp=[2024-08-24 19:52:18], mode=PLATFORM_GENERATION, duration=0:00:05.190, duration_ms=5190, data={name=zybo_2B_interrupt_pf}
+timestamp=[2024-08-24 19:52:18], mode=BUILD, duration=0:00:00.176, duration_ms=176, data={name=zybo_2B_interrupt, configuration=Debug, clean_build=true}
+timestamp=[2024-08-24 19:52:38], mode=PLATFORM_GENERATION, duration=0:00:09.816, duration_ms=9816, data={name=zybo_2B_interrupt_pf}
+timestamp=[2024-08-24 19:52:39], mode=BUILD, duration=0:00:00.325, duration_ms=325, data={name=zybo_2B_interrupt, configuration=Debug, clean_build=false}
+timestamp=[2024-08-24 19:52:46], mode=BUILD, duration=0:00:06.487, duration_ms=6487, data={name=zybo_2B_interrupt_system, configuration=Hardware, clean_build=false}
+timestamp=[2024-08-24 20:14:23], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.039, duration_ms=39, data={}
+timestamp=[2024-08-24 20:14:23], mode=WORKBENCH_START, duration=0:00:07.297, duration_ms=7297, data={}
+timestamp=[2024-08-24 20:14:24], mode=WORKBENCH_UI_INIT, duration=0:00:00.900, duration_ms=900, data={editors_count=4, platform_editors_count=0, projects_count=7, platform_projects_count=2, active_platform_editor=false, projects=RemoteSystemsTempFiles,led_test,led_test_system,zybo_1B_wrapper_updated,zybo_2B_interrupt,zybo_2B_interrupt_pf,zybo_2B_interrupt_system}

@@ -1,0 +1,7 @@
+23:28:48 **** Clean-only build of configuration Hardware for project LED_test_system ****
+make clean 
+rm -rf ./package.build
+rm -rf package
+
+23:28:49 Build Finished (took 168ms)
+

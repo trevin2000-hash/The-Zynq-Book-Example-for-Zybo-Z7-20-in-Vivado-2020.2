@@ -1,0 +1,1514 @@
+TRACE::2024-08-23.21:14:37::SCWPlatform::Trying to open the hw design at /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:37::SCWPlatform::DSA given /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:37::SCWPlatform::DSA absoulate path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:37::SCWPlatform::DSA directory /home/trevin/workspace/interput_wrapper/hw
+TRACE::2024-08-23.21:14:37::SCWPlatform:: Platform Path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:37::SCWPlatform:: Unique name xilinx:zybo-z7-20:interrupt:0.1
+TRACE::2024-08-23.21:14:37::SCWPlatform::Do not have an existing db opened. 
+TRACE::2024-08-23.21:14:38::SCWPlatform::Opened new HwDB with name interput_wrapper_0
+TRACE::2024-08-23.21:14:38::SCWWriter::formatted JSON is {
+	"platformName":	"interput_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Expandable",
+	"platformDesc":	"interput_wrapper",
+	"platHandOff":	"/home/trevin/Documents/Soc_Projects/zybo_excrises/zybo_exercise_2/interput_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/interput_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2024-08-23.21:14:38::SCWWriter::formatted JSON is {
+	"platformName":	"interput_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Expandable",
+	"platformDesc":	"interput_wrapper",
+	"platHandOff":	"/home/trevin/Documents/Soc_Projects/zybo_excrises/zybo_exercise_2/interput_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/interput_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"interput_wrapper",
+	"systems":	[{
+			"systemName":	"interput_wrapper",
+			"systemDesc":	"interput_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"interput_wrapper"
+		}]
+}
+TRACE::2024-08-23.21:14:38::SCWPlatform::Boot application domains not present, creating them
+TRACE::2024-08-23.21:14:38::SCWDomain::checking for install qemu data   : 
+TRACE::2024-08-23.21:14:38::SCWDomain:: Using the QEMU Data from install at  : /tools/Xilinx_2020.2/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2024-08-23.21:14:38::SCWDomain:: Using the QEMU args  from install at  : /tools/Xilinx_2020.2/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2024-08-23.21:14:38::SCWPlatform::Trying to open the hw design at /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:38::SCWPlatform::DSA given /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:38::SCWPlatform::DSA absoulate path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:38::SCWPlatform::DSA directory /home/trevin/workspace/interput_wrapper/hw
+TRACE::2024-08-23.21:14:38::SCWPlatform:: Platform Path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:38::SCWPlatform:: Unique name xilinx:zybo-z7-20:interrupt:0.1
+TRACE::2024-08-23.21:14:38::SCWPlatform::Trying to set the existing hwdb with name interput_wrapper_0
+TRACE::2024-08-23.21:14:38::SCWPlatform::Opened existing hwdb interput_wrapper_0
+TRACE::2024-08-23.21:14:38::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-08-23.21:14:38::SCWPlatform::Trying to open the hw design at /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:38::SCWPlatform::DSA given /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:38::SCWPlatform::DSA absoulate path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:38::SCWPlatform::DSA directory /home/trevin/workspace/interput_wrapper/hw
+TRACE::2024-08-23.21:14:38::SCWPlatform:: Platform Path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:38::SCWPlatform:: Unique name xilinx:zybo-z7-20:interrupt:0.1
+TRACE::2024-08-23.21:14:38::SCWPlatform::Trying to set the existing hwdb with name interput_wrapper_0
+TRACE::2024-08-23.21:14:38::SCWPlatform::Opened existing hwdb interput_wrapper_0
+TRACE::2024-08-23.21:14:38::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-08-23.21:14:38::SCWPlatform::Trying to open the hw design at /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:38::SCWPlatform::DSA given /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:38::SCWPlatform::DSA absoulate path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:38::SCWPlatform::DSA directory /home/trevin/workspace/interput_wrapper/hw
+TRACE::2024-08-23.21:14:38::SCWPlatform:: Platform Path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:38::SCWPlatform:: Unique name xilinx:zybo-z7-20:interrupt:0.1
+TRACE::2024-08-23.21:14:38::SCWPlatform::Trying to set the existing hwdb with name interput_wrapper_0
+TRACE::2024-08-23.21:14:38::SCWPlatform::Opened existing hwdb interput_wrapper_0
+TRACE::2024-08-23.21:14:38::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-08-23.21:14:38::SCWPlatform::Boot application domain added for zynq_fsbl
+TRACE::2024-08-23.21:14:38::SCWPlatform::Generating the sources  .
+TRACE::2024-08-23.21:14:38::SCWBDomain::Generating boot domain sources.
+TRACE::2024-08-23.21:14:38::SCWBDomain:: Generating the zynq_fsbl Application.
+TRACE::2024-08-23.21:14:38::SCWPlatform::Trying to open the hw design at /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:38::SCWPlatform::DSA given /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:38::SCWPlatform::DSA absoulate path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:38::SCWPlatform::DSA directory /home/trevin/workspace/interput_wrapper/hw
+TRACE::2024-08-23.21:14:38::SCWPlatform:: Platform Path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:38::SCWPlatform:: Unique name xilinx:zybo-z7-20:interrupt:0.1
+TRACE::2024-08-23.21:14:38::SCWPlatform::Trying to set the existing hwdb with name interput_wrapper_0
+TRACE::2024-08-23.21:14:38::SCWPlatform::Opened existing hwdb interput_wrapper_0
+TRACE::2024-08-23.21:14:38::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-08-23.21:14:38::SCWMssOS::Checking the sw design at  /home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-08-23.21:14:38::SCWMssOS::DEBUG:  swdes dump  /home/trevin/workspace/zybo_1B_wrapper_updated/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/trevin/workspace/zybo_1B_wrapper_updated/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-08-23.21:14:38::SCWMssOS::No sw design opened at  /home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-08-23.21:14:38::SCWMssOS::mss does not exists at /home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-08-23.21:14:38::SCWMssOS::Creating sw design at  /home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-08-23.21:14:38::SCWMssOS::Adding the swdes entry, created swdb /home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name /home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-08-23.21:14:38::SCWMssOS::updating the scw layer changes to swdes at   /home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-08-23.21:14:38::SCWMssOS::Writing mss at /home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-08-23.21:14:38::SCWMssOS::Completed writing the mss file at /home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp
+TRACE::2024-08-23.21:14:38::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2024-08-23.21:14:38::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2024-08-23.21:14:38::SCWBDomain::Completed writing the mss file at /home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp
+TRACE::2024-08-23.21:14:41::SCWPlatform::Generating sources Done.
+TRACE::2024-08-23.21:14:41::SCWPlatform::Trying to open the hw design at /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:41::SCWPlatform::DSA given /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:41::SCWPlatform::DSA absoulate path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:41::SCWPlatform::DSA directory /home/trevin/workspace/interput_wrapper/hw
+TRACE::2024-08-23.21:14:41::SCWPlatform:: Platform Path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:41::SCWPlatform:: Unique name xilinx:zybo-z7-20:interrupt:0.1
+TRACE::2024-08-23.21:14:41::SCWPlatform::Trying to set the existing hwdb with name interput_wrapper_0
+TRACE::2024-08-23.21:14:41::SCWPlatform::Opened existing hwdb interput_wrapper_0
+TRACE::2024-08-23.21:14:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-08-23.21:14:41::SCWMssOS::Checking the sw design at  /home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-08-23.21:14:41::SCWMssOS::DEBUG:  swdes dump  /home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|/home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss||
+/home/trevin/workspace/zybo_1B_wrapper_updated/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/trevin/workspace/zybo_1B_wrapper_updated/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+KEYINFO::2024-08-23.21:14:41::SCWMssOS::Could not open the swdb for /home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+KEYINFO::2024-08-23.21:14:41::SCWMssOS::Could not open the sw design at  /home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+ERROR: [Hsi 55-1558] Software Design /home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss is not found
+
+TRACE::2024-08-23.21:14:41::SCWMssOS::Cleared the swdb table entry
+TRACE::2024-08-23.21:14:41::SCWMssOS::No sw design opened at  /home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-08-23.21:14:41::SCWMssOS::mss exists loading the mss file  /home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-08-23.21:14:41::SCWMssOS::Opened the sw design from mss  /home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-08-23.21:14:41::SCWMssOS::Adding the swdes entry /home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system_1
+TRACE::2024-08-23.21:14:41::SCWMssOS::updating the scw layer about changes
+TRACE::2024-08-23.21:14:41::SCWMssOS::Opened the sw design.  /home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-08-23.21:14:41::SCWMssOS::Saving the mss changes /home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-08-23.21:14:41::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-08-23.21:14:41::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-08-23.21:14:41::SCWMssOS::Commit changes completed.
+TRACE::2024-08-23.21:14:41::SCWPlatform::Trying to open the hw design at /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:41::SCWPlatform::DSA given /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:41::SCWPlatform::DSA absoulate path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:41::SCWPlatform::DSA directory /home/trevin/workspace/interput_wrapper/hw
+TRACE::2024-08-23.21:14:41::SCWPlatform:: Platform Path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:41::SCWPlatform:: Unique name xilinx:zybo-z7-20:interrupt:0.1
+TRACE::2024-08-23.21:14:41::SCWPlatform::Trying to set the existing hwdb with name interput_wrapper_0
+TRACE::2024-08-23.21:14:41::SCWPlatform::Opened existing hwdb interput_wrapper_0
+TRACE::2024-08-23.21:14:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-08-23.21:14:41::SCWMssOS::Checking the sw design at  /home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-08-23.21:14:41::SCWMssOS::DEBUG:  swdes dump  /home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+/home/trevin/workspace/zybo_1B_wrapper_updated/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/trevin/workspace/zybo_1B_wrapper_updated/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-08-23.21:14:41::SCWMssOS::Sw design exists and opened at  /home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-08-23.21:14:41::SCWPlatform::Trying to open the hw design at /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:41::SCWPlatform::DSA given /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:41::SCWPlatform::DSA absoulate path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:41::SCWPlatform::DSA directory /home/trevin/workspace/interput_wrapper/hw
+TRACE::2024-08-23.21:14:41::SCWPlatform:: Platform Path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:41::SCWPlatform:: Unique name xilinx:zybo-z7-20:interrupt:0.1
+TRACE::2024-08-23.21:14:41::SCWPlatform::Trying to set the existing hwdb with name interput_wrapper_0
+TRACE::2024-08-23.21:14:41::SCWPlatform::Opened existing hwdb interput_wrapper_0
+TRACE::2024-08-23.21:14:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-08-23.21:14:41::SCWMssOS::Checking the sw design at  /home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-08-23.21:14:41::SCWMssOS::DEBUG:  swdes dump  /home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+/home/trevin/workspace/zybo_1B_wrapper_updated/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/trevin/workspace/zybo_1B_wrapper_updated/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-08-23.21:14:41::SCWMssOS::Sw design exists and opened at  /home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-08-23.21:14:41::SCWPlatform::Trying to open the hw design at /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:41::SCWPlatform::DSA given /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:41::SCWPlatform::DSA absoulate path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:41::SCWPlatform::DSA directory /home/trevin/workspace/interput_wrapper/hw
+TRACE::2024-08-23.21:14:41::SCWPlatform:: Platform Path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:41::SCWPlatform:: Unique name xilinx:zybo-z7-20:interrupt:0.1
+TRACE::2024-08-23.21:14:41::SCWPlatform::Trying to set the existing hwdb with name interput_wrapper_0
+TRACE::2024-08-23.21:14:41::SCWPlatform::Opened existing hwdb interput_wrapper_0
+TRACE::2024-08-23.21:14:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-08-23.21:14:41::SCWMssOS::Checking the sw design at  /home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-08-23.21:14:41::SCWMssOS::DEBUG:  swdes dump  /home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+/home/trevin/workspace/zybo_1B_wrapper_updated/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/trevin/workspace/zybo_1B_wrapper_updated/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-08-23.21:14:41::SCWMssOS::Sw design exists and opened at  /home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-08-23.21:14:41::SCWWriter::formatted JSON is {
+	"platformName":	"interput_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Expandable",
+	"platformDesc":	"interput_wrapper",
+	"platHandOff":	"/home/trevin/Documents/Soc_Projects/zybo_excrises/zybo_exercise_2/interput_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/interput_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"interput_wrapper",
+	"systems":	[{
+			"systemName":	"interput_wrapper",
+			"systemDesc":	"interput_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"interput_wrapper",
+			"sysActiveDom":	"zynq_fsbl",
+			"sysDefaultDom":	"",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"293689c8de7530676985f3bf2ea8f185",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.4", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2024-08-23.21:14:41::SCWMssOS::Saving the mss changes /home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-08-23.21:14:41::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-08-23.21:14:41::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-08-23.21:14:41::SCWMssOS::Commit changes completed.
+TRACE::2024-08-23.21:14:41::SCWPlatform::Trying to open the hw design at /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:41::SCWPlatform::DSA given /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:41::SCWPlatform::DSA absoulate path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:41::SCWPlatform::DSA directory /home/trevin/workspace/interput_wrapper/hw
+TRACE::2024-08-23.21:14:41::SCWPlatform:: Platform Path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:41::SCWPlatform:: Unique name xilinx:zybo-z7-20:interrupt:0.1
+TRACE::2024-08-23.21:14:41::SCWPlatform::Trying to set the existing hwdb with name interput_wrapper_0
+TRACE::2024-08-23.21:14:41::SCWPlatform::Opened existing hwdb interput_wrapper_0
+TRACE::2024-08-23.21:14:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-08-23.21:14:41::SCWMssOS::Checking the sw design at  /home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-08-23.21:14:41::SCWMssOS::DEBUG:  swdes dump  /home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+/home/trevin/workspace/zybo_1B_wrapper_updated/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/trevin/workspace/zybo_1B_wrapper_updated/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-08-23.21:14:41::SCWMssOS::Sw design exists and opened at  /home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-08-23.21:14:41::SCWPlatform::Trying to open the hw design at /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:41::SCWPlatform::DSA given /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:41::SCWPlatform::DSA absoulate path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:41::SCWPlatform::DSA directory /home/trevin/workspace/interput_wrapper/hw
+TRACE::2024-08-23.21:14:41::SCWPlatform:: Platform Path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:41::SCWPlatform:: Unique name xilinx:zybo-z7-20:interrupt:0.1
+TRACE::2024-08-23.21:14:41::SCWPlatform::Trying to set the existing hwdb with name interput_wrapper_0
+TRACE::2024-08-23.21:14:41::SCWPlatform::Opened existing hwdb interput_wrapper_0
+TRACE::2024-08-23.21:14:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-08-23.21:14:41::SCWMssOS::Checking the sw design at  /home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-08-23.21:14:41::SCWMssOS::DEBUG:  swdes dump  /home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+/home/trevin/workspace/zybo_1B_wrapper_updated/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/trevin/workspace/zybo_1B_wrapper_updated/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-08-23.21:14:41::SCWMssOS::Sw design exists and opened at  /home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-08-23.21:14:41::SCWPlatform::Trying to open the hw design at /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:41::SCWPlatform::DSA given /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:41::SCWPlatform::DSA absoulate path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:41::SCWPlatform::DSA directory /home/trevin/workspace/interput_wrapper/hw
+TRACE::2024-08-23.21:14:41::SCWPlatform:: Platform Path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:41::SCWPlatform:: Unique name xilinx:zybo-z7-20:interrupt:0.1
+TRACE::2024-08-23.21:14:41::SCWPlatform::Trying to set the existing hwdb with name interput_wrapper_0
+TRACE::2024-08-23.21:14:41::SCWPlatform::Opened existing hwdb interput_wrapper_0
+TRACE::2024-08-23.21:14:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-08-23.21:14:41::SCWMssOS::Checking the sw design at  /home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-08-23.21:14:41::SCWMssOS::DEBUG:  swdes dump  /home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+/home/trevin/workspace/zybo_1B_wrapper_updated/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/trevin/workspace/zybo_1B_wrapper_updated/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-08-23.21:14:41::SCWMssOS::Sw design exists and opened at  /home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-08-23.21:14:41::SCWWriter::formatted JSON is {
+	"platformName":	"interput_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Expandable",
+	"platformDesc":	"interput_wrapper",
+	"platHandOff":	"/home/trevin/Documents/Soc_Projects/zybo_excrises/zybo_exercise_2/interput_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/interput_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"interput_wrapper",
+	"systems":	[{
+			"systemName":	"interput_wrapper",
+			"systemDesc":	"interput_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"interput_wrapper",
+			"sysActiveDom":	"zynq_fsbl",
+			"sysDefaultDom":	"",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"293689c8de7530676985f3bf2ea8f185",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.4", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2024-08-23.21:14:41::SCWDomain::checking for install qemu data   : 
+TRACE::2024-08-23.21:14:41::SCWDomain:: Using the QEMU Data from install at  : /tools/Xilinx_2020.2/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2024-08-23.21:14:41::SCWDomain:: Using the QEMU args  from install at  : /tools/Xilinx_2020.2/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2024-08-23.21:14:41::SCWPlatform::Trying to open the hw design at /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:41::SCWPlatform::DSA given /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:41::SCWPlatform::DSA absoulate path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:41::SCWPlatform::DSA directory /home/trevin/workspace/interput_wrapper/hw
+TRACE::2024-08-23.21:14:41::SCWPlatform:: Platform Path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:41::SCWPlatform:: Unique name xilinx:zybo-z7-20:interrupt:0.1
+TRACE::2024-08-23.21:14:41::SCWPlatform::Trying to set the existing hwdb with name interput_wrapper_0
+TRACE::2024-08-23.21:14:41::SCWPlatform::Opened existing hwdb interput_wrapper_0
+TRACE::2024-08-23.21:14:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-08-23.21:14:41::SCWPlatform::Trying to open the hw design at /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:41::SCWPlatform::DSA given /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:41::SCWPlatform::DSA absoulate path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:41::SCWPlatform::DSA directory /home/trevin/workspace/interput_wrapper/hw
+TRACE::2024-08-23.21:14:41::SCWPlatform:: Platform Path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:41::SCWPlatform:: Unique name xilinx:zybo-z7-20:interrupt:0.1
+TRACE::2024-08-23.21:14:41::SCWPlatform::Trying to set the existing hwdb with name interput_wrapper_0
+TRACE::2024-08-23.21:14:41::SCWPlatform::Opened existing hwdb interput_wrapper_0
+TRACE::2024-08-23.21:14:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-08-23.21:14:41::SCWPlatform::Trying to open the hw design at /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:41::SCWPlatform::DSA given /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:41::SCWPlatform::DSA absoulate path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:41::SCWPlatform::DSA directory /home/trevin/workspace/interput_wrapper/hw
+TRACE::2024-08-23.21:14:41::SCWPlatform:: Platform Path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:41::SCWPlatform:: Unique name xilinx:zybo-z7-20:interrupt:0.1
+TRACE::2024-08-23.21:14:41::SCWPlatform::Trying to set the existing hwdb with name interput_wrapper_0
+TRACE::2024-08-23.21:14:41::SCWPlatform::Opened existing hwdb interput_wrapper_0
+TRACE::2024-08-23.21:14:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-08-23.21:14:41::SCWMssOS::Checking the sw design at  /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-08-23.21:14:41::SCWMssOS::DEBUG:  swdes dump  /home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+/home/trevin/workspace/zybo_1B_wrapper_updated/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/trevin/workspace/zybo_1B_wrapper_updated/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-08-23.21:14:41::SCWMssOS::No sw design opened at  /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-08-23.21:14:41::SCWMssOS::mss does not exists at /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-08-23.21:14:41::SCWMssOS::Creating sw design at  /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-08-23.21:14:41::SCWMssOS::Adding the swdes entry, created swdb /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss with des name /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-08-23.21:14:41::SCWMssOS::updating the scw layer changes to swdes at   /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-08-23.21:14:41::SCWMssOS::Writing mss at /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-08-23.21:14:41::SCWMssOS::Completed writing the mss file at /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp
+TRACE::2024-08-23.21:14:41::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2024-08-23.21:14:41::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2024-08-23.21:14:41::SCWMssOS::Completed writing the mss file at /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp
+TRACE::2024-08-23.21:14:42::SCWMssOS::Forcing BSP Sources regeneration.
+TRACE::2024-08-23.21:14:42::SCWMssOS::Saving the mss changes /home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-08-23.21:14:42::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-08-23.21:14:42::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-08-23.21:14:42::SCWMssOS::Commit changes completed.
+TRACE::2024-08-23.21:14:42::SCWMssOS::Saving the mss changes /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-08-23.21:14:42::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-08-23.21:14:42::SCWMssOS::Running validate of swdbs.
+KEYINFO::2024-08-23.21:14:42::SCWMssOS::Could not open the swdb for /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+KEYINFO::2024-08-23.21:14:42::SCWMssOS::Could not open the sw design at  /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+ERROR: [Hsi 55-1558] Software Design /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss is not found
+
+TRACE::2024-08-23.21:14:42::SCWMssOS::Cleared the swdb table entry
+TRACE::2024-08-23.21:14:42::SCWMssOS::Adding the swdes entry, mss present, able to open swdb /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss with des name system_2
+TRACE::2024-08-23.21:14:42::SCWMssOS::Writing the mss file completed /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-08-23.21:14:42::SCWMssOS::Commit changes completed.
+TRACE::2024-08-23.21:14:42::SCWPlatform::Trying to open the hw design at /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA given /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA absoulate path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA directory /home/trevin/workspace/interput_wrapper/hw
+TRACE::2024-08-23.21:14:42::SCWPlatform:: Platform Path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform:: Unique name xilinx:zybo-z7-20:interrupt:0.1
+TRACE::2024-08-23.21:14:42::SCWPlatform::Trying to set the existing hwdb with name interput_wrapper_0
+TRACE::2024-08-23.21:14:42::SCWPlatform::Opened existing hwdb interput_wrapper_0
+TRACE::2024-08-23.21:14:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-08-23.21:14:42::SCWMssOS::Checking the sw design at  /home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-08-23.21:14:42::SCWMssOS::DEBUG:  swdes dump  /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_2||
+/home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+/home/trevin/workspace/zybo_1B_wrapper_updated/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/trevin/workspace/zybo_1B_wrapper_updated/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-08-23.21:14:42::SCWMssOS::Sw design exists and opened at  /home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-08-23.21:14:42::SCWPlatform::Trying to open the hw design at /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA given /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA absoulate path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA directory /home/trevin/workspace/interput_wrapper/hw
+TRACE::2024-08-23.21:14:42::SCWPlatform:: Platform Path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform:: Unique name xilinx:zybo-z7-20:interrupt:0.1
+TRACE::2024-08-23.21:14:42::SCWPlatform::Trying to set the existing hwdb with name interput_wrapper_0
+TRACE::2024-08-23.21:14:42::SCWPlatform::Opened existing hwdb interput_wrapper_0
+TRACE::2024-08-23.21:14:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-08-23.21:14:42::SCWMssOS::Checking the sw design at  /home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-08-23.21:14:42::SCWMssOS::DEBUG:  swdes dump  /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_2||
+/home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+/home/trevin/workspace/zybo_1B_wrapper_updated/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/trevin/workspace/zybo_1B_wrapper_updated/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-08-23.21:14:42::SCWMssOS::Sw design exists and opened at  /home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-08-23.21:14:42::SCWPlatform::Trying to open the hw design at /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA given /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA absoulate path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA directory /home/trevin/workspace/interput_wrapper/hw
+TRACE::2024-08-23.21:14:42::SCWPlatform:: Platform Path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform:: Unique name xilinx:zybo-z7-20:interrupt:0.1
+TRACE::2024-08-23.21:14:42::SCWPlatform::Trying to set the existing hwdb with name interput_wrapper_0
+TRACE::2024-08-23.21:14:42::SCWPlatform::Opened existing hwdb interput_wrapper_0
+TRACE::2024-08-23.21:14:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-08-23.21:14:42::SCWMssOS::Checking the sw design at  /home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-08-23.21:14:42::SCWMssOS::DEBUG:  swdes dump  /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_2||
+/home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+/home/trevin/workspace/zybo_1B_wrapper_updated/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/trevin/workspace/zybo_1B_wrapper_updated/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-08-23.21:14:42::SCWMssOS::Sw design exists and opened at  /home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-08-23.21:14:42::SCWPlatform::Trying to open the hw design at /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA given /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA absoulate path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA directory /home/trevin/workspace/interput_wrapper/hw
+TRACE::2024-08-23.21:14:42::SCWPlatform:: Platform Path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform:: Unique name xilinx:zybo-z7-20:interrupt:0.1
+TRACE::2024-08-23.21:14:42::SCWPlatform::Trying to set the existing hwdb with name interput_wrapper_0
+TRACE::2024-08-23.21:14:42::SCWPlatform::Opened existing hwdb interput_wrapper_0
+TRACE::2024-08-23.21:14:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-08-23.21:14:42::SCWMssOS::Checking the sw design at  /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-08-23.21:14:42::SCWMssOS::DEBUG:  swdes dump  /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_2||
+/home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+/home/trevin/workspace/zybo_1B_wrapper_updated/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/trevin/workspace/zybo_1B_wrapper_updated/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-08-23.21:14:42::SCWMssOS::Sw design exists and opened at  /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-08-23.21:14:42::SCWPlatform::Trying to open the hw design at /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA given /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA absoulate path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA directory /home/trevin/workspace/interput_wrapper/hw
+TRACE::2024-08-23.21:14:42::SCWPlatform:: Platform Path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform:: Unique name xilinx:zybo-z7-20:interrupt:0.1
+TRACE::2024-08-23.21:14:42::SCWPlatform::Trying to set the existing hwdb with name interput_wrapper_0
+TRACE::2024-08-23.21:14:42::SCWPlatform::Opened existing hwdb interput_wrapper_0
+TRACE::2024-08-23.21:14:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-08-23.21:14:42::SCWMssOS::Checking the sw design at  /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-08-23.21:14:42::SCWMssOS::DEBUG:  swdes dump  /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_2||
+/home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+/home/trevin/workspace/zybo_1B_wrapper_updated/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/trevin/workspace/zybo_1B_wrapper_updated/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-08-23.21:14:42::SCWMssOS::Sw design exists and opened at  /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-08-23.21:14:42::SCWPlatform::Trying to open the hw design at /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA given /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA absoulate path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA directory /home/trevin/workspace/interput_wrapper/hw
+TRACE::2024-08-23.21:14:42::SCWPlatform:: Platform Path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform:: Unique name xilinx:zybo-z7-20:interrupt:0.1
+TRACE::2024-08-23.21:14:42::SCWPlatform::Trying to set the existing hwdb with name interput_wrapper_0
+TRACE::2024-08-23.21:14:42::SCWPlatform::Opened existing hwdb interput_wrapper_0
+TRACE::2024-08-23.21:14:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-08-23.21:14:42::SCWMssOS::Checking the sw design at  /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-08-23.21:14:42::SCWMssOS::DEBUG:  swdes dump  /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_2||
+/home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+/home/trevin/workspace/zybo_1B_wrapper_updated/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/trevin/workspace/zybo_1B_wrapper_updated/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-08-23.21:14:42::SCWMssOS::Sw design exists and opened at  /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-08-23.21:14:42::SCWWriter::formatted JSON is {
+	"platformName":	"interput_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Expandable",
+	"platformDesc":	"interput_wrapper",
+	"platHandOff":	"/home/trevin/Documents/Soc_Projects/zybo_excrises/zybo_exercise_2/interput_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/interput_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"interput_wrapper",
+	"systems":	[{
+			"systemName":	"interput_wrapper",
+			"systemDesc":	"interput_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"interput_wrapper",
+			"sysActiveDom":	"standalone_ps7_cortexa9_0",
+			"sysDefaultDom":	"standalone_ps7_cortexa9_0",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"293689c8de7530676985f3bf2ea8f185",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.4", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_ps7_cortexa9_0",
+					"domainDispName":	"standalone_ps7_cortexa9_0",
+					"domainDesc":	"standalone_ps7_cortexa9_0",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"/tools/Xilinx_2020.2/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt",
+					"qemuData":	"/tools/Xilinx_2020.2/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"80755b29258571b4ddef254158091333",
+					"compatibleApp":	"empty_application",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2024-08-23.21:14:42::SCWPlatform::Started generating the artifacts platform interput_wrapper
+TRACE::2024-08-23.21:14:42::SCWPlatform::Sanity checking of platform is completed
+LOG::2024-08-23.21:14:42::SCWPlatform::Started generating the artifacts for system configuration interput_wrapper
+LOG::2024-08-23.21:14:42::SCWSystem::Checking the domain zynq_fsbl
+LOG::2024-08-23.21:14:42::SCWSystem::Doing application build for :  zynq_fsbl
+TRACE::2024-08-23.21:14:42::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2024-08-23.21:14:42::SCWDomain::Skipping the build for domain :  zynq_fsbl
+LOG::2024-08-23.21:14:42::SCWSystem::Checking the domain standalone_ps7_cortexa9_0
+LOG::2024-08-23.21:14:42::SCWSystem::Not a boot domain 
+LOG::2024-08-23.21:14:42::SCWSystem::Started Processing the domain standalone_ps7_cortexa9_0
+TRACE::2024-08-23.21:14:42::SCWDomain::Generating domain artifcats
+TRACE::2024-08-23.21:14:42::SCWMssOS::Generating standalone artifcats
+TRACE::2024-08-23.21:14:42::SCWMssOS::Copying the qemu file from  /tools/Xilinx_2020.2/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt To /home/trevin/workspace/interput_wrapper/export/interput_wrapper/sw/interput_wrapper/qemu/
+TRACE::2024-08-23.21:14:42::SCWMssOS::Copying the qemu file from  /tools/Xilinx_2020.2/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt To /home/trevin/workspace/interput_wrapper/export/interput_wrapper/sw/interput_wrapper/standalone_ps7_cortexa9_0/qemu/
+TRACE::2024-08-23.21:14:42::SCWMssOS:: Copying the user libraries. 
+TRACE::2024-08-23.21:14:42::SCWPlatform::Trying to open the hw design at /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA given /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA absoulate path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA directory /home/trevin/workspace/interput_wrapper/hw
+TRACE::2024-08-23.21:14:42::SCWPlatform:: Platform Path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform:: Unique name xilinx:zybo-z7-20:interrupt:0.1
+TRACE::2024-08-23.21:14:42::SCWPlatform::Trying to set the existing hwdb with name interput_wrapper_0
+TRACE::2024-08-23.21:14:42::SCWPlatform::Opened existing hwdb interput_wrapper_0
+TRACE::2024-08-23.21:14:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-08-23.21:14:42::SCWMssOS::Checking the sw design at  /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-08-23.21:14:42::SCWMssOS::DEBUG:  swdes dump  /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_2||
+/home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+/home/trevin/workspace/zybo_1B_wrapper_updated/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/trevin/workspace/zybo_1B_wrapper_updated/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-08-23.21:14:42::SCWMssOS::Sw design exists and opened at  /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-08-23.21:14:42::SCWMssOS::Completed writing the mss file at /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp
+TRACE::2024-08-23.21:14:42::SCWMssOS::Mss edits present, copying mssfile into export location /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-08-23.21:14:42::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2024-08-23.21:14:42::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2024-08-23.21:14:42::SCWDomain::Skipping the build for domain :  standalone_ps7_cortexa9_0
+TRACE::2024-08-23.21:14:42::SCWMssOS::skipping the bsp build ... 
+TRACE::2024-08-23.21:14:42::SCWMssOS::Copying to export directory.
+TRACE::2024-08-23.21:14:42::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2024-08-23.21:14:42::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+TRACE::2024-08-23.21:14:42::SCWMssOS:: Completed Standalone Artifacts creation 
+LOG::2024-08-23.21:14:42::SCWSystem::Completed Processing the domain standalone_ps7_cortexa9_0
+LOG::2024-08-23.21:14:42::SCWSystem::Completed Processing the sysconfig interput_wrapper
+LOG::2024-08-23.21:14:42::SCWPlatform::Completed generating the artifacts for system configuration interput_wrapper
+TRACE::2024-08-23.21:14:42::SCWPlatform::Started preparing the platform 
+TRACE::2024-08-23.21:14:42::SCWSystem::Writing the bif file for system config interput_wrapper
+TRACE::2024-08-23.21:14:42::SCWSystem::dir created 
+TRACE::2024-08-23.21:14:42::SCWSystem::Writing the bif 
+TRACE::2024-08-23.21:14:42::SCWPlatform::Started writing the spfm file 
+TRACE::2024-08-23.21:14:42::SCWPlatform::Started writing the xpfm file 
+TRACE::2024-08-23.21:14:42::SCWPlatform::Completed generating the platform
+TRACE::2024-08-23.21:14:42::SCWMssOS::Saving the mss changes /home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-08-23.21:14:42::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-08-23.21:14:42::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-08-23.21:14:42::SCWMssOS::Commit changes completed.
+TRACE::2024-08-23.21:14:42::SCWMssOS::Saving the mss changes /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-08-23.21:14:42::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-08-23.21:14:42::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-08-23.21:14:42::SCWMssOS::Commit changes completed.
+TRACE::2024-08-23.21:14:42::SCWPlatform::Trying to open the hw design at /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA given /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA absoulate path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA directory /home/trevin/workspace/interput_wrapper/hw
+TRACE::2024-08-23.21:14:42::SCWPlatform:: Platform Path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform:: Unique name xilinx:zybo-z7-20:interrupt:0.1
+TRACE::2024-08-23.21:14:42::SCWPlatform::Trying to set the existing hwdb with name interput_wrapper_0
+TRACE::2024-08-23.21:14:42::SCWPlatform::Opened existing hwdb interput_wrapper_0
+TRACE::2024-08-23.21:14:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-08-23.21:14:42::SCWMssOS::Checking the sw design at  /home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-08-23.21:14:42::SCWMssOS::DEBUG:  swdes dump  /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_2||
+/home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+/home/trevin/workspace/zybo_1B_wrapper_updated/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/trevin/workspace/zybo_1B_wrapper_updated/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-08-23.21:14:42::SCWMssOS::Sw design exists and opened at  /home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-08-23.21:14:42::SCWPlatform::Trying to open the hw design at /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA given /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA absoulate path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA directory /home/trevin/workspace/interput_wrapper/hw
+TRACE::2024-08-23.21:14:42::SCWPlatform:: Platform Path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform:: Unique name xilinx:zybo-z7-20:interrupt:0.1
+TRACE::2024-08-23.21:14:42::SCWPlatform::Trying to set the existing hwdb with name interput_wrapper_0
+TRACE::2024-08-23.21:14:42::SCWPlatform::Opened existing hwdb interput_wrapper_0
+TRACE::2024-08-23.21:14:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-08-23.21:14:42::SCWMssOS::Checking the sw design at  /home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-08-23.21:14:42::SCWMssOS::DEBUG:  swdes dump  /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_2||
+/home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+/home/trevin/workspace/zybo_1B_wrapper_updated/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/trevin/workspace/zybo_1B_wrapper_updated/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-08-23.21:14:42::SCWMssOS::Sw design exists and opened at  /home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-08-23.21:14:42::SCWPlatform::Trying to open the hw design at /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA given /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA absoulate path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA directory /home/trevin/workspace/interput_wrapper/hw
+TRACE::2024-08-23.21:14:42::SCWPlatform:: Platform Path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform:: Unique name xilinx:zybo-z7-20:interrupt:0.1
+TRACE::2024-08-23.21:14:42::SCWPlatform::Trying to set the existing hwdb with name interput_wrapper_0
+TRACE::2024-08-23.21:14:42::SCWPlatform::Opened existing hwdb interput_wrapper_0
+TRACE::2024-08-23.21:14:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-08-23.21:14:42::SCWMssOS::Checking the sw design at  /home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-08-23.21:14:42::SCWMssOS::DEBUG:  swdes dump  /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_2||
+/home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+/home/trevin/workspace/zybo_1B_wrapper_updated/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/trevin/workspace/zybo_1B_wrapper_updated/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-08-23.21:14:42::SCWMssOS::Sw design exists and opened at  /home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-08-23.21:14:42::SCWPlatform::Trying to open the hw design at /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA given /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA absoulate path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA directory /home/trevin/workspace/interput_wrapper/hw
+TRACE::2024-08-23.21:14:42::SCWPlatform:: Platform Path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform:: Unique name xilinx:zybo-z7-20:interrupt:0.1
+TRACE::2024-08-23.21:14:42::SCWPlatform::Trying to set the existing hwdb with name interput_wrapper_0
+TRACE::2024-08-23.21:14:42::SCWPlatform::Opened existing hwdb interput_wrapper_0
+TRACE::2024-08-23.21:14:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-08-23.21:14:42::SCWMssOS::Checking the sw design at  /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-08-23.21:14:42::SCWMssOS::DEBUG:  swdes dump  /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_2||
+/home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+/home/trevin/workspace/zybo_1B_wrapper_updated/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/trevin/workspace/zybo_1B_wrapper_updated/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-08-23.21:14:42::SCWMssOS::Sw design exists and opened at  /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-08-23.21:14:42::SCWPlatform::Trying to open the hw design at /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA given /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA absoulate path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA directory /home/trevin/workspace/interput_wrapper/hw
+TRACE::2024-08-23.21:14:42::SCWPlatform:: Platform Path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform:: Unique name xilinx:zybo-z7-20:interrupt:0.1
+TRACE::2024-08-23.21:14:42::SCWPlatform::Trying to set the existing hwdb with name interput_wrapper_0
+TRACE::2024-08-23.21:14:42::SCWPlatform::Opened existing hwdb interput_wrapper_0
+TRACE::2024-08-23.21:14:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-08-23.21:14:42::SCWMssOS::Checking the sw design at  /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-08-23.21:14:42::SCWMssOS::DEBUG:  swdes dump  /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_2||
+/home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+/home/trevin/workspace/zybo_1B_wrapper_updated/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/trevin/workspace/zybo_1B_wrapper_updated/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-08-23.21:14:42::SCWMssOS::Sw design exists and opened at  /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-08-23.21:14:42::SCWPlatform::Trying to open the hw design at /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA given /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA absoulate path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA directory /home/trevin/workspace/interput_wrapper/hw
+TRACE::2024-08-23.21:14:42::SCWPlatform:: Platform Path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform:: Unique name xilinx:zybo-z7-20:interrupt:0.1
+TRACE::2024-08-23.21:14:42::SCWPlatform::Trying to set the existing hwdb with name interput_wrapper_0
+TRACE::2024-08-23.21:14:42::SCWPlatform::Opened existing hwdb interput_wrapper_0
+TRACE::2024-08-23.21:14:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-08-23.21:14:42::SCWMssOS::Checking the sw design at  /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-08-23.21:14:42::SCWMssOS::DEBUG:  swdes dump  /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_2||
+/home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+/home/trevin/workspace/zybo_1B_wrapper_updated/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/trevin/workspace/zybo_1B_wrapper_updated/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-08-23.21:14:42::SCWMssOS::Sw design exists and opened at  /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-08-23.21:14:42::SCWWriter::formatted JSON is {
+	"platformName":	"interput_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Expandable",
+	"platformDesc":	"interput_wrapper",
+	"platHandOff":	"/home/trevin/Documents/Soc_Projects/zybo_excrises/zybo_exercise_2/interput_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/interput_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"interput_wrapper",
+	"systems":	[{
+			"systemName":	"interput_wrapper",
+			"systemDesc":	"interput_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"interput_wrapper",
+			"sysActiveDom":	"standalone_ps7_cortexa9_0",
+			"sysDefaultDom":	"standalone_ps7_cortexa9_0",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"293689c8de7530676985f3bf2ea8f185",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.4", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_ps7_cortexa9_0",
+					"domainDispName":	"standalone_ps7_cortexa9_0",
+					"domainDesc":	"standalone_ps7_cortexa9_0",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"/tools/Xilinx_2020.2/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt",
+					"qemuData":	"/tools/Xilinx_2020.2/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"80755b29258571b4ddef254158091333",
+					"compatibleApp":	"empty_application",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2024-08-23.21:14:42::SCWPlatform::updated the xpfm file.
+TRACE::2024-08-23.21:14:42::SCWPlatform::Trying to open the hw design at /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA given /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA absoulate path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA directory /home/trevin/workspace/interput_wrapper/hw
+TRACE::2024-08-23.21:14:42::SCWPlatform:: Platform Path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform:: Unique name xilinx:zybo-z7-20:interrupt:0.1
+TRACE::2024-08-23.21:14:42::SCWPlatform::Trying to set the existing hwdb with name interput_wrapper_0
+TRACE::2024-08-23.21:14:42::SCWPlatform::Opened existing hwdb interput_wrapper_0
+TRACE::2024-08-23.21:14:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-08-23.21:14:42::SCWMssOS::Checking the sw design at  /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-08-23.21:14:42::SCWMssOS::DEBUG:  swdes dump  /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_2||
+/home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+/home/trevin/workspace/zybo_1B_wrapper_updated/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/trevin/workspace/zybo_1B_wrapper_updated/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-08-23.21:14:42::SCWMssOS::Sw design exists and opened at  /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-08-23.21:14:42::SCWMssOS::Saving the mss changes /home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-08-23.21:14:42::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-08-23.21:14:42::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-08-23.21:14:42::SCWMssOS::Commit changes completed.
+TRACE::2024-08-23.21:14:42::SCWMssOS::Saving the mss changes /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-08-23.21:14:42::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-08-23.21:14:42::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-08-23.21:14:42::SCWMssOS::Commit changes completed.
+TRACE::2024-08-23.21:14:42::SCWPlatform::Trying to open the hw design at /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA given /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA absoulate path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA directory /home/trevin/workspace/interput_wrapper/hw
+TRACE::2024-08-23.21:14:42::SCWPlatform:: Platform Path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform:: Unique name xilinx:zybo-z7-20:interrupt:0.1
+TRACE::2024-08-23.21:14:42::SCWPlatform::Trying to set the existing hwdb with name interput_wrapper_0
+TRACE::2024-08-23.21:14:42::SCWPlatform::Opened existing hwdb interput_wrapper_0
+TRACE::2024-08-23.21:14:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-08-23.21:14:42::SCWMssOS::Checking the sw design at  /home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-08-23.21:14:42::SCWMssOS::DEBUG:  swdes dump  /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_2||
+/home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+/home/trevin/workspace/zybo_1B_wrapper_updated/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/trevin/workspace/zybo_1B_wrapper_updated/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-08-23.21:14:42::SCWMssOS::Sw design exists and opened at  /home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-08-23.21:14:42::SCWPlatform::Trying to open the hw design at /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA given /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA absoulate path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA directory /home/trevin/workspace/interput_wrapper/hw
+TRACE::2024-08-23.21:14:42::SCWPlatform:: Platform Path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform:: Unique name xilinx:zybo-z7-20:interrupt:0.1
+TRACE::2024-08-23.21:14:42::SCWPlatform::Trying to set the existing hwdb with name interput_wrapper_0
+TRACE::2024-08-23.21:14:42::SCWPlatform::Opened existing hwdb interput_wrapper_0
+TRACE::2024-08-23.21:14:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-08-23.21:14:42::SCWMssOS::Checking the sw design at  /home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-08-23.21:14:42::SCWMssOS::DEBUG:  swdes dump  /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_2||
+/home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+/home/trevin/workspace/zybo_1B_wrapper_updated/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/trevin/workspace/zybo_1B_wrapper_updated/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-08-23.21:14:42::SCWMssOS::Sw design exists and opened at  /home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-08-23.21:14:42::SCWPlatform::Trying to open the hw design at /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA given /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA absoulate path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA directory /home/trevin/workspace/interput_wrapper/hw
+TRACE::2024-08-23.21:14:42::SCWPlatform:: Platform Path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform:: Unique name xilinx:zybo-z7-20:interrupt:0.1
+TRACE::2024-08-23.21:14:42::SCWPlatform::Trying to set the existing hwdb with name interput_wrapper_0
+TRACE::2024-08-23.21:14:42::SCWPlatform::Opened existing hwdb interput_wrapper_0
+TRACE::2024-08-23.21:14:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-08-23.21:14:42::SCWMssOS::Checking the sw design at  /home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-08-23.21:14:42::SCWMssOS::DEBUG:  swdes dump  /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_2||
+/home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+/home/trevin/workspace/zybo_1B_wrapper_updated/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/trevin/workspace/zybo_1B_wrapper_updated/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-08-23.21:14:42::SCWMssOS::Sw design exists and opened at  /home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-08-23.21:14:42::SCWPlatform::Trying to open the hw design at /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA given /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA absoulate path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA directory /home/trevin/workspace/interput_wrapper/hw
+TRACE::2024-08-23.21:14:42::SCWPlatform:: Platform Path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform:: Unique name xilinx:zybo-z7-20:interrupt:0.1
+TRACE::2024-08-23.21:14:42::SCWPlatform::Trying to set the existing hwdb with name interput_wrapper_0
+TRACE::2024-08-23.21:14:42::SCWPlatform::Opened existing hwdb interput_wrapper_0
+TRACE::2024-08-23.21:14:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-08-23.21:14:42::SCWMssOS::Checking the sw design at  /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-08-23.21:14:42::SCWMssOS::DEBUG:  swdes dump  /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_2||
+/home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+/home/trevin/workspace/zybo_1B_wrapper_updated/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/trevin/workspace/zybo_1B_wrapper_updated/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-08-23.21:14:42::SCWMssOS::Sw design exists and opened at  /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-08-23.21:14:42::SCWPlatform::Trying to open the hw design at /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA given /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA absoulate path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA directory /home/trevin/workspace/interput_wrapper/hw
+TRACE::2024-08-23.21:14:42::SCWPlatform:: Platform Path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform:: Unique name xilinx:zybo-z7-20:interrupt:0.1
+TRACE::2024-08-23.21:14:42::SCWPlatform::Trying to set the existing hwdb with name interput_wrapper_0
+TRACE::2024-08-23.21:14:42::SCWPlatform::Opened existing hwdb interput_wrapper_0
+TRACE::2024-08-23.21:14:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-08-23.21:14:42::SCWMssOS::Checking the sw design at  /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-08-23.21:14:42::SCWMssOS::DEBUG:  swdes dump  /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_2||
+/home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+/home/trevin/workspace/zybo_1B_wrapper_updated/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/trevin/workspace/zybo_1B_wrapper_updated/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-08-23.21:14:42::SCWMssOS::Sw design exists and opened at  /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-08-23.21:14:42::SCWPlatform::Trying to open the hw design at /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA given /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA absoulate path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA directory /home/trevin/workspace/interput_wrapper/hw
+TRACE::2024-08-23.21:14:42::SCWPlatform:: Platform Path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform:: Unique name xilinx:zybo-z7-20:interrupt:0.1
+TRACE::2024-08-23.21:14:42::SCWPlatform::Trying to set the existing hwdb with name interput_wrapper_0
+TRACE::2024-08-23.21:14:42::SCWPlatform::Opened existing hwdb interput_wrapper_0
+TRACE::2024-08-23.21:14:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-08-23.21:14:42::SCWMssOS::Checking the sw design at  /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-08-23.21:14:42::SCWMssOS::DEBUG:  swdes dump  /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_2||
+/home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+/home/trevin/workspace/zybo_1B_wrapper_updated/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/trevin/workspace/zybo_1B_wrapper_updated/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-08-23.21:14:42::SCWMssOS::Sw design exists and opened at  /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-08-23.21:14:42::SCWWriter::formatted JSON is {
+	"platformName":	"interput_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Expandable",
+	"platformDesc":	"interput_wrapper",
+	"platHandOff":	"/home/trevin/Documents/Soc_Projects/zybo_excrises/zybo_exercise_2/interput_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/interput_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"interput_wrapper",
+	"systems":	[{
+			"systemName":	"interput_wrapper",
+			"systemDesc":	"interput_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"interput_wrapper",
+			"sysActiveDom":	"standalone_ps7_cortexa9_0",
+			"sysDefaultDom":	"standalone_ps7_cortexa9_0",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"293689c8de7530676985f3bf2ea8f185",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.4", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_ps7_cortexa9_0",
+					"domainDispName":	"standalone_ps7_cortexa9_0",
+					"domainDesc":	"standalone_ps7_cortexa9_0",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"/tools/Xilinx_2020.2/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt",
+					"qemuData":	"/tools/Xilinx_2020.2/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"80755b29258571b4ddef254158091333",
+					"compatibleApp":	"empty_application",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2024-08-23.21:14:42::SCWPlatform::Trying to open the hw design at /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA given /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA absoulate path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA directory /home/trevin/workspace/interput_wrapper/hw
+TRACE::2024-08-23.21:14:42::SCWPlatform:: Platform Path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform:: Unique name xilinx:zybo-z7-20:interrupt:0.1
+TRACE::2024-08-23.21:14:42::SCWPlatform::Trying to set the existing hwdb with name interput_wrapper_0
+TRACE::2024-08-23.21:14:42::SCWPlatform::Opened existing hwdb interput_wrapper_0
+TRACE::2024-08-23.21:14:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-08-23.21:14:42::SCWMssOS::Checking the sw design at  /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-08-23.21:14:42::SCWMssOS::DEBUG:  swdes dump  /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_2||
+/home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+/home/trevin/workspace/zybo_1B_wrapper_updated/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/trevin/workspace/zybo_1B_wrapper_updated/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-08-23.21:14:42::SCWMssOS::Sw design exists and opened at  /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-08-23.21:14:42::SCWPlatform::Trying to open the hw design at /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA given /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA absoulate path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA directory /home/trevin/workspace/interput_wrapper/hw
+TRACE::2024-08-23.21:14:42::SCWPlatform:: Platform Path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform:: Unique name xilinx:zybo-z7-20:interrupt:0.1
+TRACE::2024-08-23.21:14:42::SCWPlatform::Trying to set the existing hwdb with name interput_wrapper_0
+TRACE::2024-08-23.21:14:42::SCWPlatform::Opened existing hwdb interput_wrapper_0
+TRACE::2024-08-23.21:14:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-08-23.21:14:42::SCWMssOS::Checking the sw design at  /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-08-23.21:14:42::SCWMssOS::DEBUG:  swdes dump  /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_2||
+/home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+/home/trevin/workspace/zybo_1B_wrapper_updated/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/trevin/workspace/zybo_1B_wrapper_updated/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-08-23.21:14:42::SCWMssOS::Sw design exists and opened at  /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-08-23.21:14:42::SCWMssOS::Saving the mss changes /home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-08-23.21:14:42::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-08-23.21:14:42::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-08-23.21:14:42::SCWMssOS::Commit changes completed.
+TRACE::2024-08-23.21:14:42::SCWMssOS::Saving the mss changes /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-08-23.21:14:42::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-08-23.21:14:42::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-08-23.21:14:42::SCWMssOS::Commit changes completed.
+TRACE::2024-08-23.21:14:42::SCWPlatform::Trying to open the hw design at /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA given /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA absoulate path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA directory /home/trevin/workspace/interput_wrapper/hw
+TRACE::2024-08-23.21:14:42::SCWPlatform:: Platform Path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform:: Unique name xilinx:zybo-z7-20:interrupt:0.1
+TRACE::2024-08-23.21:14:42::SCWPlatform::Trying to set the existing hwdb with name interput_wrapper_0
+TRACE::2024-08-23.21:14:42::SCWPlatform::Opened existing hwdb interput_wrapper_0
+TRACE::2024-08-23.21:14:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-08-23.21:14:42::SCWMssOS::Checking the sw design at  /home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-08-23.21:14:42::SCWMssOS::DEBUG:  swdes dump  /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_2||
+/home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+/home/trevin/workspace/zybo_1B_wrapper_updated/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/trevin/workspace/zybo_1B_wrapper_updated/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-08-23.21:14:42::SCWMssOS::Sw design exists and opened at  /home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-08-23.21:14:42::SCWPlatform::Trying to open the hw design at /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA given /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA absoulate path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA directory /home/trevin/workspace/interput_wrapper/hw
+TRACE::2024-08-23.21:14:42::SCWPlatform:: Platform Path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform:: Unique name xilinx:zybo-z7-20:interrupt:0.1
+TRACE::2024-08-23.21:14:42::SCWPlatform::Trying to set the existing hwdb with name interput_wrapper_0
+TRACE::2024-08-23.21:14:42::SCWPlatform::Opened existing hwdb interput_wrapper_0
+TRACE::2024-08-23.21:14:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-08-23.21:14:42::SCWMssOS::Checking the sw design at  /home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-08-23.21:14:42::SCWMssOS::DEBUG:  swdes dump  /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_2||
+/home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+/home/trevin/workspace/zybo_1B_wrapper_updated/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/trevin/workspace/zybo_1B_wrapper_updated/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-08-23.21:14:42::SCWMssOS::Sw design exists and opened at  /home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-08-23.21:14:42::SCWPlatform::Trying to open the hw design at /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA given /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA absoulate path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA directory /home/trevin/workspace/interput_wrapper/hw
+TRACE::2024-08-23.21:14:42::SCWPlatform:: Platform Path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform:: Unique name xilinx:zybo-z7-20:interrupt:0.1
+TRACE::2024-08-23.21:14:42::SCWPlatform::Trying to set the existing hwdb with name interput_wrapper_0
+TRACE::2024-08-23.21:14:42::SCWPlatform::Opened existing hwdb interput_wrapper_0
+TRACE::2024-08-23.21:14:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-08-23.21:14:42::SCWMssOS::Checking the sw design at  /home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-08-23.21:14:42::SCWMssOS::DEBUG:  swdes dump  /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_2||
+/home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+/home/trevin/workspace/zybo_1B_wrapper_updated/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/trevin/workspace/zybo_1B_wrapper_updated/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-08-23.21:14:42::SCWMssOS::Sw design exists and opened at  /home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-08-23.21:14:42::SCWPlatform::Trying to open the hw design at /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA given /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA absoulate path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA directory /home/trevin/workspace/interput_wrapper/hw
+TRACE::2024-08-23.21:14:42::SCWPlatform:: Platform Path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform:: Unique name xilinx:zybo-z7-20:interrupt:0.1
+TRACE::2024-08-23.21:14:42::SCWPlatform::Trying to set the existing hwdb with name interput_wrapper_0
+TRACE::2024-08-23.21:14:42::SCWPlatform::Opened existing hwdb interput_wrapper_0
+TRACE::2024-08-23.21:14:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-08-23.21:14:42::SCWMssOS::Checking the sw design at  /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-08-23.21:14:42::SCWMssOS::DEBUG:  swdes dump  /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_2||
+/home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+/home/trevin/workspace/zybo_1B_wrapper_updated/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/trevin/workspace/zybo_1B_wrapper_updated/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-08-23.21:14:42::SCWMssOS::Sw design exists and opened at  /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-08-23.21:14:42::SCWPlatform::Trying to open the hw design at /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA given /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA absoulate path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA directory /home/trevin/workspace/interput_wrapper/hw
+TRACE::2024-08-23.21:14:42::SCWPlatform:: Platform Path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform:: Unique name xilinx:zybo-z7-20:interrupt:0.1
+TRACE::2024-08-23.21:14:42::SCWPlatform::Trying to set the existing hwdb with name interput_wrapper_0
+TRACE::2024-08-23.21:14:42::SCWPlatform::Opened existing hwdb interput_wrapper_0
+TRACE::2024-08-23.21:14:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-08-23.21:14:42::SCWMssOS::Checking the sw design at  /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-08-23.21:14:42::SCWMssOS::DEBUG:  swdes dump  /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_2||
+/home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+/home/trevin/workspace/zybo_1B_wrapper_updated/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/trevin/workspace/zybo_1B_wrapper_updated/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-08-23.21:14:42::SCWMssOS::Sw design exists and opened at  /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-08-23.21:14:42::SCWPlatform::Trying to open the hw design at /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA given /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA absoulate path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA directory /home/trevin/workspace/interput_wrapper/hw
+TRACE::2024-08-23.21:14:42::SCWPlatform:: Platform Path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform:: Unique name xilinx:zybo-z7-20:interrupt:0.1
+TRACE::2024-08-23.21:14:42::SCWPlatform::Trying to set the existing hwdb with name interput_wrapper_0
+TRACE::2024-08-23.21:14:42::SCWPlatform::Opened existing hwdb interput_wrapper_0
+TRACE::2024-08-23.21:14:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-08-23.21:14:42::SCWMssOS::Checking the sw design at  /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-08-23.21:14:42::SCWMssOS::DEBUG:  swdes dump  /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_2||
+/home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+/home/trevin/workspace/zybo_1B_wrapper_updated/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/trevin/workspace/zybo_1B_wrapper_updated/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-08-23.21:14:42::SCWMssOS::Sw design exists and opened at  /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-08-23.21:14:42::SCWWriter::formatted JSON is {
+	"platformName":	"interput_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Expandable",
+	"platformDesc":	"interput_wrapper",
+	"platHandOff":	"/home/trevin/Documents/Soc_Projects/zybo_excrises/zybo_exercise_2/interput_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/interput_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"interput_wrapper",
+	"systems":	[{
+			"systemName":	"interput_wrapper",
+			"systemDesc":	"interput_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"interput_wrapper",
+			"sysActiveDom":	"standalone_ps7_cortexa9_0",
+			"sysDefaultDom":	"standalone_ps7_cortexa9_0",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"293689c8de7530676985f3bf2ea8f185",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.4", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_ps7_cortexa9_0",
+					"domainDispName":	"standalone_ps7_cortexa9_0",
+					"domainDesc":	"standalone_ps7_cortexa9_0",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"/tools/Xilinx_2020.2/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt",
+					"qemuData":	"/tools/Xilinx_2020.2/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"80755b29258571b4ddef254158091333",
+					"compatibleApp":	"empty_application",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2024-08-23.21:14:42::SCWPlatform::Started generating the artifacts platform interput_wrapper
+TRACE::2024-08-23.21:14:42::SCWPlatform::Sanity checking of platform is completed
+LOG::2024-08-23.21:14:42::SCWPlatform::Started generating the artifacts for system configuration interput_wrapper
+LOG::2024-08-23.21:14:42::SCWSystem::Started Processing the domain standalone_ps7_cortexa9_0
+TRACE::2024-08-23.21:14:42::SCWDomain::Generating domain artifcats
+TRACE::2024-08-23.21:14:42::SCWMssOS::Generating standalone artifcats
+TRACE::2024-08-23.21:14:42::SCWMssOS::Copying the qemu file from  /tools/Xilinx_2020.2/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt To /home/trevin/workspace/interput_wrapper/export/interput_wrapper/sw/interput_wrapper/qemu/
+TRACE::2024-08-23.21:14:42::SCWMssOS::Copying the qemu file from  /tools/Xilinx_2020.2/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt To /home/trevin/workspace/interput_wrapper/export/interput_wrapper/sw/interput_wrapper/standalone_ps7_cortexa9_0/qemu/
+TRACE::2024-08-23.21:14:42::SCWMssOS:: Copying the user libraries. 
+TRACE::2024-08-23.21:14:42::SCWPlatform::Trying to open the hw design at /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA given /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA absoulate path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA directory /home/trevin/workspace/interput_wrapper/hw
+TRACE::2024-08-23.21:14:42::SCWPlatform:: Platform Path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform:: Unique name xilinx:zybo-z7-20:interrupt:0.1
+TRACE::2024-08-23.21:14:42::SCWPlatform::Trying to set the existing hwdb with name interput_wrapper_0
+TRACE::2024-08-23.21:14:42::SCWPlatform::Opened existing hwdb interput_wrapper_0
+TRACE::2024-08-23.21:14:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-08-23.21:14:42::SCWMssOS::Checking the sw design at  /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-08-23.21:14:42::SCWMssOS::DEBUG:  swdes dump  /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_2||
+/home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+/home/trevin/workspace/zybo_1B_wrapper_updated/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/trevin/workspace/zybo_1B_wrapper_updated/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-08-23.21:14:42::SCWMssOS::Sw design exists and opened at  /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-08-23.21:14:42::SCWMssOS::Completed writing the mss file at /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp
+TRACE::2024-08-23.21:14:42::SCWMssOS::Mss edits present, copying mssfile into export location /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-08-23.21:14:42::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2024-08-23.21:14:42::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2024-08-23.21:14:42::SCWDomain::Building the domain as part of full build :  standalone_ps7_cortexa9_0
+TRACE::2024-08-23.21:14:42::SCWMssOS::skipping the bsp build ... 
+TRACE::2024-08-23.21:14:42::SCWMssOS::Copying to export directory.
+TRACE::2024-08-23.21:14:42::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2024-08-23.21:14:42::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+TRACE::2024-08-23.21:14:42::SCWMssOS:: Completed Standalone Artifacts creation 
+LOG::2024-08-23.21:14:42::SCWSystem::Completed Processing the domain standalone_ps7_cortexa9_0
+LOG::2024-08-23.21:14:42::SCWSystem::Completed Processing the sysconfig interput_wrapper
+LOG::2024-08-23.21:14:42::SCWPlatform::Completed generating the artifacts for system configuration interput_wrapper
+TRACE::2024-08-23.21:14:42::SCWPlatform::Started preparing the platform 
+TRACE::2024-08-23.21:14:42::SCWSystem::Writing the bif file for system config interput_wrapper
+TRACE::2024-08-23.21:14:42::SCWSystem::dir created 
+TRACE::2024-08-23.21:14:42::SCWSystem::Writing the bif 
+TRACE::2024-08-23.21:14:42::SCWPlatform::Started writing the spfm file 
+TRACE::2024-08-23.21:14:42::SCWPlatform::Started writing the xpfm file 
+TRACE::2024-08-23.21:14:42::SCWPlatform::Completed generating the platform
+TRACE::2024-08-23.21:14:42::SCWMssOS::Saving the mss changes /home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-08-23.21:14:42::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-08-23.21:14:42::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-08-23.21:14:42::SCWMssOS::Commit changes completed.
+TRACE::2024-08-23.21:14:42::SCWMssOS::Saving the mss changes /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-08-23.21:14:42::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-08-23.21:14:42::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-08-23.21:14:42::SCWMssOS::Commit changes completed.
+TRACE::2024-08-23.21:14:42::SCWPlatform::Trying to open the hw design at /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA given /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA absoulate path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA directory /home/trevin/workspace/interput_wrapper/hw
+TRACE::2024-08-23.21:14:42::SCWPlatform:: Platform Path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform:: Unique name xilinx:zybo-z7-20:interrupt:0.1
+TRACE::2024-08-23.21:14:42::SCWPlatform::Trying to set the existing hwdb with name interput_wrapper_0
+TRACE::2024-08-23.21:14:42::SCWPlatform::Opened existing hwdb interput_wrapper_0
+TRACE::2024-08-23.21:14:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-08-23.21:14:42::SCWMssOS::Checking the sw design at  /home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-08-23.21:14:42::SCWMssOS::DEBUG:  swdes dump  /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_2||
+/home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+/home/trevin/workspace/zybo_1B_wrapper_updated/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/trevin/workspace/zybo_1B_wrapper_updated/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-08-23.21:14:42::SCWMssOS::Sw design exists and opened at  /home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-08-23.21:14:42::SCWPlatform::Trying to open the hw design at /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA given /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA absoulate path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA directory /home/trevin/workspace/interput_wrapper/hw
+TRACE::2024-08-23.21:14:42::SCWPlatform:: Platform Path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform:: Unique name xilinx:zybo-z7-20:interrupt:0.1
+TRACE::2024-08-23.21:14:42::SCWPlatform::Trying to set the existing hwdb with name interput_wrapper_0
+TRACE::2024-08-23.21:14:42::SCWPlatform::Opened existing hwdb interput_wrapper_0
+TRACE::2024-08-23.21:14:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-08-23.21:14:42::SCWMssOS::Checking the sw design at  /home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-08-23.21:14:42::SCWMssOS::DEBUG:  swdes dump  /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_2||
+/home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+/home/trevin/workspace/zybo_1B_wrapper_updated/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/trevin/workspace/zybo_1B_wrapper_updated/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-08-23.21:14:42::SCWMssOS::Sw design exists and opened at  /home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-08-23.21:14:42::SCWPlatform::Trying to open the hw design at /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA given /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA absoulate path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA directory /home/trevin/workspace/interput_wrapper/hw
+TRACE::2024-08-23.21:14:42::SCWPlatform:: Platform Path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform:: Unique name xilinx:zybo-z7-20:interrupt:0.1
+TRACE::2024-08-23.21:14:42::SCWPlatform::Trying to set the existing hwdb with name interput_wrapper_0
+TRACE::2024-08-23.21:14:42::SCWPlatform::Opened existing hwdb interput_wrapper_0
+TRACE::2024-08-23.21:14:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-08-23.21:14:42::SCWMssOS::Checking the sw design at  /home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-08-23.21:14:42::SCWMssOS::DEBUG:  swdes dump  /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_2||
+/home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+/home/trevin/workspace/zybo_1B_wrapper_updated/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/trevin/workspace/zybo_1B_wrapper_updated/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-08-23.21:14:42::SCWMssOS::Sw design exists and opened at  /home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-08-23.21:14:42::SCWPlatform::Trying to open the hw design at /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA given /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA absoulate path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA directory /home/trevin/workspace/interput_wrapper/hw
+TRACE::2024-08-23.21:14:42::SCWPlatform:: Platform Path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform:: Unique name xilinx:zybo-z7-20:interrupt:0.1
+TRACE::2024-08-23.21:14:42::SCWPlatform::Trying to set the existing hwdb with name interput_wrapper_0
+TRACE::2024-08-23.21:14:42::SCWPlatform::Opened existing hwdb interput_wrapper_0
+TRACE::2024-08-23.21:14:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-08-23.21:14:42::SCWMssOS::Checking the sw design at  /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-08-23.21:14:42::SCWMssOS::DEBUG:  swdes dump  /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_2||
+/home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+/home/trevin/workspace/zybo_1B_wrapper_updated/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/trevin/workspace/zybo_1B_wrapper_updated/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-08-23.21:14:42::SCWMssOS::Sw design exists and opened at  /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-08-23.21:14:42::SCWPlatform::Trying to open the hw design at /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA given /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA absoulate path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA directory /home/trevin/workspace/interput_wrapper/hw
+TRACE::2024-08-23.21:14:42::SCWPlatform:: Platform Path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform:: Unique name xilinx:zybo-z7-20:interrupt:0.1
+TRACE::2024-08-23.21:14:42::SCWPlatform::Trying to set the existing hwdb with name interput_wrapper_0
+TRACE::2024-08-23.21:14:42::SCWPlatform::Opened existing hwdb interput_wrapper_0
+TRACE::2024-08-23.21:14:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-08-23.21:14:42::SCWMssOS::Checking the sw design at  /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-08-23.21:14:42::SCWMssOS::DEBUG:  swdes dump  /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_2||
+/home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+/home/trevin/workspace/zybo_1B_wrapper_updated/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/trevin/workspace/zybo_1B_wrapper_updated/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-08-23.21:14:42::SCWMssOS::Sw design exists and opened at  /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-08-23.21:14:42::SCWPlatform::Trying to open the hw design at /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA given /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA absoulate path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform::DSA directory /home/trevin/workspace/interput_wrapper/hw
+TRACE::2024-08-23.21:14:42::SCWPlatform:: Platform Path /home/trevin/workspace/interput_wrapper/hw/interput_wrapper.xsa
+TRACE::2024-08-23.21:14:42::SCWPlatform:: Unique name xilinx:zybo-z7-20:interrupt:0.1
+TRACE::2024-08-23.21:14:42::SCWPlatform::Trying to set the existing hwdb with name interput_wrapper_0
+TRACE::2024-08-23.21:14:42::SCWPlatform::Opened existing hwdb interput_wrapper_0
+TRACE::2024-08-23.21:14:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-08-23.21:14:42::SCWMssOS::Checking the sw design at  /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-08-23.21:14:42::SCWMssOS::DEBUG:  swdes dump  /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_2||
+/home/trevin/workspace/interput_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+/home/trevin/workspace/zybo_1B_wrapper_updated/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/trevin/workspace/zybo_1B_wrapper_updated/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-08-23.21:14:42::SCWMssOS::Sw design exists and opened at  /home/trevin/workspace/interput_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-08-23.21:14:42::SCWWriter::formatted JSON is {
+	"platformName":	"interput_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Expandable",
+	"platformDesc":	"interput_wrapper",
+	"platHandOff":	"/home/trevin/Documents/Soc_Projects/zybo_excrises/zybo_exercise_2/interput_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/interput_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"interput_wrapper",
+	"systems":	[{
+			"systemName":	"interput_wrapper",
+			"systemDesc":	"interput_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"interput_wrapper",
+			"sysActiveDom":	"standalone_ps7_cortexa9_0",
+			"sysDefaultDom":	"standalone_ps7_cortexa9_0",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"293689c8de7530676985f3bf2ea8f185",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.4", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_ps7_cortexa9_0",
+					"domainDispName":	"standalone_ps7_cortexa9_0",
+					"domainDesc":	"standalone_ps7_cortexa9_0",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"/tools/Xilinx_2020.2/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt",
+					"qemuData":	"/tools/Xilinx_2020.2/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"80755b29258571b4ddef254158091333",
+					"compatibleApp":	"empty_application",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2024-08-23.21:14:42::SCWPlatform::updated the xpfm file.
